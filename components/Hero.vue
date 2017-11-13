@@ -3,7 +3,7 @@
     <div class="hero__image"></div>
     <div class="container hero__inner">
       <div class="hero__body">
-        <p class="hero__subtitle">Lorem ipsum dolor sit amet consectetur.</p>
+        <span class="hero__subtitle">Lorem ipsum dolor sit amet consectetur.</span>
         <h1 class="hero__title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
         <div class="hero__buttons">
           <a href="#" class="btn btn-a">Click Me!</a>
@@ -21,7 +21,6 @@
   .hero
     height: calc(100vh - 70px) // 70px is the navbar height
     position: relative
-    margin: 0 30px
     background-color: rgba($hero-bg, .4)
     .hero__image
       background-image: url(~static/banner.jpg)
@@ -46,13 +45,15 @@
           margin-bottom: 1rem
           font-size: 2.75rem
           text-shadow: 0 1px 2px rgba(0,0,0, 0.20)
-        p.hero__subtitle
+        span.hero__subtitle
+          display: block
           color: #e8fffe
           text-shadow: 0 1px 2px rgba(0,0,0, 0.20)
         .hero__buttons
           padding-top: 2rem
-          // border-top: 1px solid #C6E6E5
           .btn
-            margin-right: 1rem
+            box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.20)
+            &:not(:last-child)
+              margin-right: 1rem
 
 </style>

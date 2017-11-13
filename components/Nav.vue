@@ -28,8 +28,8 @@
 
   .navbar
     background-color: $navbar-bg
-    border:
-      top: 10px solid $navbar-br
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.10)
+    border-top: 10px solid $navbar-br
     .navbar__inner
       height: 70px
       display: flex

@@ -1,0 +1,36 @@
+<template>
+  <div class="about-us">
+    <div class="container home-block about-us__inner">
+      <div class="columns">
+        <div class="column is-half">
+          <span class="subtitle">What we do</span>
+          <h1 class="title">About us</h1>
+          <div class="about-us__body">
+            <p><strong>Lorem ipsum dolor sit amet</strong> consectetur adipisicing elit. Culpa deserunt pariatur, cum consequuntur architecto aspernatur!</p>     
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis deserunt, excepturi tempora tenetur necessitatibus expedita adipisci omnis doloremque, neque rerum commodi esse ullam unde?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, error impedit libero quaerat numquam sint repudiandae et. Dolorem molestiae cupiditate exercitationem consequuntur ratione suscipit vero fuga odit ipsa porro accusamus quaerat iusto, blanditiis corrupti veritatis.</p>
+          </div>
+        </div>
+        <div class="column is-half">
+          <h1>🖼️</h1> :todo
+        </div>
+      </div>      
+    </div>
+  </div>
+</template>
+
+<style lang="sass">
+  @import "~assets/sass/variables"
+  .about-us
+    background-color: $light
+    color: $dark
+    .about-us__inner
+      h1.title
+        font-weight: 700
+        color: $darker
+      span.subtitle
+        display: block
+        letter-spacing: 1.2px
+      .about-us__body
+        max-width: 580px
+</style>

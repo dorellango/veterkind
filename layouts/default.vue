@@ -10,7 +10,7 @@
   
   h1, h2, h3, h4, h5, h6
     font-family: "News Cycle"
-    
+
   h1
     font-size: 2.5rem
   h3
@@ -33,5 +33,8 @@
     max-width: 1152px
     margin: 0 auto
     padding: 0 1rem
+    
+  p
+    margin: .75rem 0
 
 </style>
