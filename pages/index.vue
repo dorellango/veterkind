@@ -1,15 +1,18 @@
 <template>
   <div>
+    <Nav/>
     <Hero/>
   </div>
 </template>
 
 <script>
 import Hero from '~/components/Hero.vue'
+import Nav from '~/components/Nav.vue'
 
 export default {
   components: {
-    Hero
+    Hero,
+    Nav
   }
 }
 </script>
