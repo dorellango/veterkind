@@ -12,7 +12,11 @@
           </div>
         </div>
         <div class="column is-half">
-          <h1>🖼️</h1> :todo
+          <div class="about-us__image">
+            <div class="thumb">
+              <img class="box-sh" src="~static/about-us.jpg" alt="About Us">
+            </div>
+          </div>
         </div>
       </div>      
     </div>
@@ -21,16 +25,31 @@
 
 <style lang="sass">
   @import "~assets/sass/variables"
+
   .about-us
     background-color: $light
     color: $dark
     .about-us__inner
-      h1.title
-        font-weight: 700
-        color: $darker
-      span.subtitle
-        display: block
-        letter-spacing: 1.2px
-      .about-us__body
-        max-width: 580px
+      .about-us__image
+        height: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        .thumb
+          position: relative
+          &:after
+            content: ''
+            background-color: $teal
+            top: -30px
+            left: 30px
+            right: -30px
+            bottom: 30px
+            position: absolute
+          img
+            position: relative
+            z-index: 1
+            width: 350px
+            height: auto
+            display: block
+          
 </style>

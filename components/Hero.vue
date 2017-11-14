@@ -3,8 +3,8 @@
     <div class="hero__image"></div>
     <div class="container hero__inner">
       <div class="hero__body">
-        <span class="hero__subtitle">Lorem ipsum dolor sit amet consectetur.</span>
-        <h1 class="hero__title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+        <span class="hero__subtitle subtitle txt-sh">Lorem ipsum dolor sit amet consectetur.</span>
+        <h1 class="hero__title title txt-sh">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
         <div class="hero__buttons">
           <a href="#" class="btn btn-a">Click Me!</a>
           <a href="#" class="btn">Contact Us!</a>
@@ -38,22 +38,14 @@
       color: white
       display: flex
       align-items: center
+      .hero__subtitle
+        color: #e8fffe
       .hero__body
         max-width: 500px
-        h1.hero__title
-          font-weight: 700
-          margin-bottom: 1rem
-          font-size: 2.75rem
-          text-shadow: 0 1px 2px rgba(0,0,0, 0.20)
-        span.hero__subtitle
-          display: block
-          color: #e8fffe
-          text-shadow: 0 1px 2px rgba(0,0,0, 0.20)
         .hero__buttons
           padding-top: 2rem
           .btn
             box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.20)
             &:not(:last-child)
               margin-right: 1rem
-
 </style>
