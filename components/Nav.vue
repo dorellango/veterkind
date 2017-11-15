@@ -7,9 +7,9 @@
         </div>
         <div class="navbar__links">
           <a href="/">Inicio</a>
-          <a href="">Nosotros</a>
-          <a href="">Productos</a>
-          <a href="">Fabricación</a>
+          <a @click="jumpTo('.about-us')">Nosotros</a>
+          <a>Productos</a>
+          <a @click="jumpTo('.quality')">Fabricación</a>
         </div>
         <div class="navbar__right">
            <a href="" class="btn btn-p filled">Contactános</a>
@@ -19,6 +19,20 @@
     </div>
   </div>
 </template>
+
+<script>
+import jump from 'jump.js'
+
+export default {
+  methods: {
+    jumpTo (target) {
+      jump(target)
+    }
+  }
+
+}
+</script>
+
 <style lang="sass">
   @import '~assets/sass/variables'
   
@@ -46,6 +60,7 @@
         margin-left: 1rem
         flex-grow: 1
         a
+          cursor: pointer
           color: $dark
           margin-right: 1rem
       .navbar__right

@@ -2,9 +2,9 @@
   <div class="contact-us">
     <div class="container home-block">
       <div class="contact-us__inner">
-        <span>Do  you wanna something special. Nice!</span> 
+        <span>¿Tienes dudas? Nosotros te ayudamos. </span> 
         <div class="contact-us__button">
-          <a class="btn btn-p btn-lg box-sh" href=""> Contact Us</a>
+          <nuxt-link to="/contact" class="btn btn-p btn-lg box-sh">Contáctanos</nuxt-link>
         </div>
       </div>
     </div>

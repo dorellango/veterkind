@@ -2,12 +2,10 @@
   <div class="bottom">
     <div class="container bottom__inner">
       <div class="bottom__links">
-        <a href="">Lorem.</a>
-        <a href="">Eveniet.</a>
-        <a href="">Magnam.</a>
-        <a href="">Maxime.</a>
-        <a href="">Atque!</a>
-        <a href="">Eaque.</a> 
+        <a href="/">Inicio</a>
+        <a>Contacto</a>
+        <a>Productos</a>
+        <a>¿Dónde Comprar?</a>
       </div>
       <div class="copyright">
         <strong>&copy; Veterkind Ltda. 2017</strong> / We sell medic & veterinary chairs.
