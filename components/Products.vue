@@ -9,7 +9,7 @@
         <div class="column is-one-third">
           <div class="card">
             <div class="card__media box-sh">
-              <img src="~static/product.jpg" alt="">
+              <img src="~static/about-us.jpg" alt="">
             </div>
             <div class="card__content">
               <h4 class="card__heading">Lorem, ipsum dolor.</h4>
@@ -22,7 +22,7 @@
         <div class="column is-one-third">
           <div class="card">
             <div class="card__media box-sh">
-              <img src="~static/product.jpg" alt="">
+              <img src="~static/about-us.jpg" alt="">
             </div>
             <div class="card__content">
               <h4 class="card__heading">Lorem, ipsum dolor.</h4>
@@ -35,7 +35,7 @@
         <div class="column is-one-third">
           <div class="card">
             <div class="card__media box-sh">
-              <img src="~static/product.jpg" alt="">
+              <img src="~static/about-us.jpg" alt="">
             </div>
             <div class="card__content">
               <h4 class="card__heading">Lorem, ipsum dolor.</h4>
@@ -45,6 +45,9 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="featured__buttons">
+        <a href="" class="btn btn-a">More Products</a>
       </div>
     </div>
   </div>
@@ -73,6 +76,9 @@
     .featured__inner
       max-width: 780px
       margin: 0 auto
+    .featured__buttons
+      margin-top: 2.5rem
+      text-align: center
     .card
       color: $dark
       &:hover
@@ -87,7 +93,7 @@
       .card__content
         transition: all .3s ease
         border: 3px solid $light
-        padding: .75rem
+        padding: 1.25rem .75rem
         margin: 
           left: .75rem
           right: .75rem
