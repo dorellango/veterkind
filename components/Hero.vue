@@ -6,8 +6,8 @@
         <span class="hero__subtitle subtitle txt-sh">Lorem ipsum dolor sit amet consectetur.</span>
         <h1 class="hero__title title txt-sh">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
         <div class="hero__buttons">
-          <a href="#" class="btn btn-a">Click Me!</a>
-          <nuxt-link to="/contact" class="btn">Contact Us!</nuxt-link>
+          <a href="#" class="btn btn-a">¡Nuevos!</a>
+          <nuxt-link to="/contact" class="btn">Contactános</nuxt-link>
         </div>
       </div>
     </div>
