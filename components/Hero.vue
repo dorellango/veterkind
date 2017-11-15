@@ -2,12 +2,12 @@
   <div class="hero">
     <div class="hero__image"></div>
     <div class="container hero__inner">
-      <div class="hero__body">
+      <div class="hero__body animated fadeIn">
         <span class="hero__subtitle subtitle txt-sh">Lorem ipsum dolor sit amet consectetur.</span>
         <h1 class="hero__title title txt-sh">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
         <div class="hero__buttons">
           <a href="#" class="btn btn-a">Click Me!</a>
-          <a href="#" class="btn">Contact Us!</a>
+          <nuxt-link to="/contact" class="btn">Contact Us!</nuxt-link>
         </div>
       </div>
     </div>
@@ -19,7 +19,8 @@
   $hero-bg: $teal
   
   .hero
-    height: calc(100vh - 70px) // 70px is the navbar height
+    height: 100vh
+    margin-top: -70px
     position: relative
     background-color: rgba($hero-bg, .4)
     .hero__image

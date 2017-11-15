@@ -13,11 +13,13 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "animate.css": "^3.5.2",
     "minireset.css": "0.0.3",
     "node-sass": "^4.6.1",
     "nuxt": "^1.0.0-rc11",
     "sass-loader": "^6.0.6",
-    "vue-svg-loader": "^0.3.0"
+    "vue-svg-loader": "^0.3.0",
+    "vue2-google-maps": "^0.8.4"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",

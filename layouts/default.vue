@@ -6,6 +6,7 @@
 
 <style lang="sass">
   @import "minireset.css"
+  @import "animate.css"
   @import "~assets/sass/app.sass"
   
   h1, h2, h3, h4, h5, h6

@@ -14,7 +14,7 @@
             <div class="card__content">
               <h4 class="card__heading">Lorem, ipsum dolor.</h4>
               <span class="card__meta">
-                Provident voluptate expedita obcaecati.
+                Provident voluptate.
               </span>
             </div>
           </div>
@@ -27,7 +27,7 @@
             <div class="card__content">
               <h4 class="card__heading">Lorem, ipsum dolor.</h4>
               <span class="card__meta">
-                Provident voluptate expedita obcaecati.
+                Provident voluptate.
               </span>
             </div>
           </div>
@@ -40,7 +40,7 @@
             <div class="card__content">
               <h4 class="card__heading">Lorem, ipsum dolor.</h4>
               <span class="card__meta">
-                Provident voluptate expedita obcaecati.
+                Provident voluptate.
               </span>
             </div>
           </div>
@@ -74,7 +74,7 @@
     .featured__products
       margin-top: 135px
     .featured__inner
-      max-width: 780px
+      max-width: 890px
       margin: 0 auto
     .featured__buttons
       margin-top: 2.5rem

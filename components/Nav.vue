@@ -1,19 +1,18 @@
 <template>
-  <div class="navbar">
+  <div class="navbar animated fadeInDown">
     <div class="container">
       <div class="navbar__inner">
         <div class="navbar__brand">
           <!-- <img src="~static/logo.jpg" alt="Veterkind Logo"> -->
         </div>
         <div class="navbar__links">
-          <a href="">Lorem.</a>
-          <a href="">Quo!</a>
-          <a href="">Non?</a>
-          <a href="">Esse.</a>
-          <a href="">Eum!</a>
+          <a href="/">Inicio</a>
+          <a href="">Nosotros</a>
+          <a href="">Productos</a>
+          <a href="">Fabricación</a>
         </div>
         <div class="navbar__right">
-           <a href="" class="btn btn-p filled">Lorem.</a>
+           <a href="" class="btn btn-p filled">Contactános</a>
            <a href="">Quo.</a>
         </div>
       </div>
@@ -27,6 +26,8 @@
   $navbar-br: $teal
 
   .navbar
+    position: relative
+    z-index: 1000
     background-color: $navbar-bg
     box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.10)
     border-top: 10px solid $navbar-br
