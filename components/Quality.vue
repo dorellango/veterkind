@@ -1,0 +1,88 @@
+<template>
+  <div class="quality">
+    <div class="container home-block quality__inner">
+      <div class="home-heading">
+        <span class="subtitle">Quality First!</span>
+        <h1 class="title">Manufacture</h1>
+      </div>
+      <div class="columns">
+        <div class="column is-half">
+          <div class="quality__item">
+            <Worker class="quality__image"/>
+            <div class="quality__body">
+              <h4>Producto original</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laborum?</p>
+            </div>
+          </div>
+          <div class="quality__item">
+            <Gear class="quality__image"/>
+            <div class="quality__body">
+              <h4>A medida</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laborum?</p>
+            </div>
+          </div>
+        </div>
+        <div class="column is-half">
+          <div class="quality__item">
+            <Monitor class="quality__image"/>
+            <div class="quality__body">
+              <h4>Cálidad superior</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laborum?</p>
+            </div>
+          </div>
+          <div class="quality__item">
+            <Customer class="quality__image"/>
+            <div class="quality__body">
+              <h4>Clientes satisfechos</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laborum?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import Gear from '~/static/svg/gear.svg'
+import Worker from '~/static/svg/worker.svg'
+import Monitor from '~/static/svg/monitor.svg'
+import Customer from '~/static/svg/customer.svg'
+
+export default {
+  components: {
+    Gear,
+    Worker,
+    Monitor,
+    Customer
+  }
+}
+</script>
+
+<style lang="sass">
+  @import '~assets/sass/variables'
+
+  .quality__inner
+    color: $grey
+    .subtitle
+      color: $grey
+    .title
+      color: $darker
+    .quality__item
+      max-width: 480px
+      margin: 0 auto
+      display: flex
+      margin-bottom: 1.25rem
+      svg.quality__image
+        fill: $teal
+        width: 4rem
+        height: 4rem
+        margin-right: 1.25rem
+      .quality__body
+        h4
+          font-family: "Open Sans"
+          color: $teal
+          font-weight: bold
+          letter-spacing: 1.2px
+</style>
+

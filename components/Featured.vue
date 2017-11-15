@@ -79,35 +79,6 @@
     .featured__buttons
       margin-top: 2.5rem
       text-align: center
-    .card
-      color: $dark
-      &:hover
-        .card__content
-          border: 3px solid $teal
-      .card__media
-        position: relative  
-        img
-          width: 100%
-          height: auto
-          vertical-align: bottom
-      .card__content
-        transition: all .3s ease
-        border: 3px solid $light
-        padding: 1.25rem .75rem
-        margin: 
-          left: .75rem
-          right: .75rem
-          top: -1rem
-      .card__heading
-        color: $darker
-        font-weight: 700
-        text-align: center
-        margin-bottom: .75rem
-      .card__meta
-        display: block
-        letter-spacing: 1.2px
-        font-size: small
-        text-align: center
 
 </style>
 

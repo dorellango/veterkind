@@ -1,10 +1,12 @@
 <template>
   <div class="about-us">
     <div class="container home-block about-us__inner">
+      <div class="home-heading">
+        <span class="subtitle">What we do</span>
+        <h1 class="title">About us</h1>
+      </div>
       <div class="columns">
         <div class="column is-half">
-          <span class="subtitle">What we do</span>
-          <h1 class="title">About us</h1>
           <div class="about-us__body">
             <p><strong>Lorem ipsum dolor sit amet</strong> consectetur adipisicing elit. Culpa deserunt pariatur, cum consequuntur architecto aspernatur!</p>     
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis deserunt, excepturi tempora tenetur necessitatibus expedita adipisci omnis doloremque, neque rerum commodi esse ullam unde?</p>
@@ -27,9 +29,13 @@
   @import "~assets/sass/variables"
 
   .about-us
-    background-color: $light
-    color: $dark
+    background-color: $lighter
+    color: $grey
     .about-us__inner
+      .title
+        color: $darker
+      .about-us__body strong
+        color: $dark
       .about-us__image
         height: 100%
         display: flex
