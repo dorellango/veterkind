@@ -27,6 +27,7 @@
 
 <style lang="sass">
   @import "~assets/sass/variables"
+  @import "~assets/sass/mixins"
 
   .about-us
     background-color: $lighter
@@ -41,6 +42,8 @@
         display: flex
         justify-content: center
         align-items: center
+        +mobile
+          margin-top: 1.25rem
         .thumb
           position: relative
           &:after

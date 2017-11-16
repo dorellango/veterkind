@@ -21,24 +21,10 @@
             </div>
           </div>
         </div>
-        <div class="product__item">
-          <div class="product__image box-sh">
-            <img src="~/static/about-us.jpg" alt="">
-          </div>
-          <div class="product__content">
-            <span class="product__meta subtitle">Veterinary</span>
-            <h2 class="product__heading">Lorem ipsum dolor sit amet.</h2>
-            <div class="product__body">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, illo velit. Dolores explicabo assumenda fugiat?</p>
-              <p>Nam, magni veniam dicta ipsum pariatur vel id iure velit, amet ab quas aliquid dignissimos?</p>
-              <p>Provident animi facere in, alias rem ad iste, quibusdam dolorum eum, nam debitis voluptatibus perspiciatis?</p>
-            </div>
-          </div>
-        </div>
 
         <!-- Where buy? -->
         <div class="where-buy">
-          <span class="subtitle">¿Interasado? Encuentra nuestros productos en:</span>
+          <span class="subtitle">Encuentra nuestros productos en:</span>
           <div class="where-buy__places">
             <a href="http://www.osm.cl"><img src="https://www.osm.cl/wp-content/uploads/2016/11/osm_logo.png" alt=""></a>
             <a href=""><img src="https://newrelic.cdn.prismic.io/newrelic/972eb862e5d3a50e4f7c525b931458e89d292835_casestudy_mercadolibre_logo.png" alt=""></a>
@@ -64,6 +50,7 @@ export default {
 
 <style lang="sass">
   @import '~assets/sass/variables'
+  @import '~assets/sass/mixins'
 
   .products
     background-color: $lighter
@@ -79,12 +66,16 @@ export default {
       position: relative
       display: flex
       align-items: center
+      +mobile
+        flex-wrap: wrap
       &:not(:last-child)
         margin-bottom: 1.25rem
       .product__image
-        max-width: 33.33%
+        width: 33.33%
         height: auto
         position: relative
+        +mobile
+          width: 100%
         &:after
           position: absolute
           z-index: -1

@@ -27,6 +27,8 @@ export default {
 </script>
 <style lang="sass">
   @import "~assets/sass/variables"
+  @import "~assets/sass/mixins"
+
   $hero-bg: $teal
   
   .hero

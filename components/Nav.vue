@@ -6,12 +6,12 @@
           <a class="hide-m" href="/"><img src="~static/logo.png" alt="Veterkind Logo"></a>
           <a class="hide-t" href="/"><img src="~static/logo_mini.png" alt="Veterkind Logo"></a>
         </div>
-        <div class="navbar__links">
+        <div class="navbar__links hide-m">
           <a href="/">Inicio</a>
           <nuxt-link to="/products">Productos</nuxt-link>
         </div>
         <div class="navbar__right">
-           <a href="" class="btn btn-p filled"><Support class="icon"/> Contacto</a>
+           <a href="" class="btn btn-p filled"><Support class="icon icon-2"/> Contacto</a>
         </div>
       </div>
     </div>
@@ -37,6 +37,7 @@ export default {
 
 <style lang="sass">
   @import '~assets/sass/variables'
+  @import '~assets/sass/mixins'
   
   $navbar-bg: $lightest
   $navbar-br: $teal
@@ -53,6 +54,8 @@ export default {
       align-items: center
       .navbar__brand
         height: 100%
+        +mobile
+          flex-grow: 1
         a 
           height: 70px         
           display: flex

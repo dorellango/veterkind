@@ -27,6 +27,7 @@ export default {
 
 <style lang="sass">
   @import '~assets/sass/variables'
+  @import '~assets/sass/mixins'
   
   .bottom
     text-align: center
@@ -47,6 +48,11 @@ export default {
         margin: 0 .75rem
         svg
           fill: $teal
+      +mobile
+        flex-wrap: wrap
+        a
+          width: 100%
+          margin-bottom: .75rem
     .sponsored
       margin-top: .75rem
       height: 50px
