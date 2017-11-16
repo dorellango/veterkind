@@ -11,7 +11,7 @@
           ></gmap-map>
           <div class="contact__info">
             <div class="container">
-              <h1 class="title txt-sh">Get in touch!</h1>
+              <h1 class="title txt-sh">Datos</h1>
               <div class="columns">
                 <div class="column is-one-third">
                   <div class="contact__option">

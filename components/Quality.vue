@@ -2,8 +2,8 @@
   <div class="quality">
     <div class="container home-block quality__inner">
       <div class="home-heading">
-        <span class="subtitle">Quality First!</span>
-        <h1 class="title">Manufacture</h1>
+        <span class="subtitle">¡Cálidad primero!</span>
+        <h1 class="title">Fabricación</h1>
       </div>
       <div class="columns">
         <div class="column is-half">

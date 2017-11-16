@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper">
     <nuxt/>
   </div>
 </template>
@@ -9,6 +9,8 @@
   @import "animate.css"
   @import "~assets/sass/app.sass"
   
+  .wrapper
+    overflow: hidden
   h1, h2, h3, h4, h5, h6
     font-family: "News Cycle"
 

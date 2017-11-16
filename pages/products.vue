@@ -3,10 +3,24 @@
     <Nav/>
     <div class="products">
       <div class="heading">
-        <span class="subtitle txt-sh">Vitrine 👌</span>
-        <h1 class="title txt-sh">All our products!</h1>
+        <span class="subtitle txt-sh">Vitrina 👌</span>
+        <h1 class="title txt-sh">Catálogo completo</h1>
       </div>
       <div class="container products__inner">
+        <div class="product__item">
+          <div class="product__image box-sh">
+            <img src="~/static/about-us.jpg" alt="">
+          </div>
+          <div class="product__content">
+            <span class="product__meta subtitle">Veterinary</span>
+            <h2 class="product__heading">Lorem ipsum dolor sit amet.</h2>
+            <div class="product__body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, illo velit. Dolores explicabo assumenda fugiat?</p>
+              <p>Nam, magni veniam dicta ipsum pariatur vel id iure velit, amet ab quas aliquid dignissimos?</p>
+              <p>Provident animi facere in, alias rem ad iste, quibusdam dolorum eum, nam debitis voluptatibus perspiciatis?</p>
+            </div>
+          </div>
+        </div>
         <div class="product__item">
           <div class="product__image box-sh">
             <img src="~/static/about-us.jpg" alt="">
@@ -24,10 +38,10 @@
 
         <!-- Where buy? -->
         <div class="where-buy">
-          <span class="subtitle">Interested? Find us in...</span>
+          <span class="subtitle">¿Interasado? Encuentra nuestros productos en:</span>
           <div class="where-buy__places">
-            <img src="https://www.osm.cl/wp-content/uploads/2016/11/osm_logo.png" alt="">
-            <img src="https://newrelic.cdn.prismic.io/newrelic/972eb862e5d3a50e4f7c525b931458e89d292835_casestudy_mercadolibre_logo.png" alt="">
+            <a href="http://www.osm.cl"><img src="https://www.osm.cl/wp-content/uploads/2016/11/osm_logo.png" alt=""></a>
+            <a href=""><img src="https://newrelic.cdn.prismic.io/newrelic/972eb862e5d3a50e4f7c525b931458e89d292835_casestudy_mercadolibre_logo.png" alt=""></a>
           </div>
         </div>
       </div>
@@ -101,6 +115,8 @@ export default {
           color: $grey
     
     .where-buy
+      padding-top: 1rem
+      border-top: 1px dashed $light
       .title
          color: $darker
       .subtitle
@@ -112,7 +128,7 @@ export default {
         justify-content: flex-start
         img
           margin-right: 1.25rem
-          max-width: 200px
+          max-height: 40px
           display: block
           height: auto
           filter: grayscale(100%)

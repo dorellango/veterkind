@@ -2,8 +2,8 @@
   <div class="about-us">
     <div class="container home-block about-us__inner">
       <div class="home-heading">
-        <span class="subtitle">What we do</span>
-        <h1 class="title">About us</h1>
+        <span class="subtitle">Una breve</span>
+        <h1 class="title">Historia</h1>
       </div>
       <div class="columns">
         <div class="column is-half">

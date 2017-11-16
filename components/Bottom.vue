@@ -3,16 +3,27 @@
     <div class="container bottom__inner">
       <div class="bottom__links">
         <a href="/">Inicio</a>
-        <a>Contacto</a>
-        <a>Productos</a>
-        <a>¿Dónde Comprar?</a>
+        <a href="/contact">Contacto</a>
+        <a href="/products">Productos</a>
+        <a href=""><Smartphone class="icon"/> +6718246723</a>
+        <img class="sponsored" src="~static/sercotec.png" alt="">
       </div>
       <div class="copyright">
-        <strong>&copy; Veterkind Ltda. 2017</strong> / We sell medic & veterinary chairs.
+        <strong>&copy; Veterkind Ltda. 2017</strong> / Innovación y Productividad.
       </div>
     </div>
   </div>
 </template>
+
+<script>
+import Smartphone from '~/static/svg/smartphone.svg'
+
+export default {
+  components: {
+    Smartphone
+  }
+}
+</script>
 
 <style lang="sass">
   @import '~assets/sass/variables'
@@ -28,9 +39,18 @@
       padding-bottom: 1.25rem
       border-bottom: 1px solid $darker
       text-transform: uppercase
+      display: flex
+      justify-content: center
+      align-items: center
       a
         color: $teal
         margin: 0 .75rem
+        svg
+          fill: $teal
+    .sponsored
+      margin-top: .75rem
+      height: 50px
+      opacity: .8
     .copyright 
       color: $dark
       strong

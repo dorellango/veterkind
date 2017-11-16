@@ -6,14 +6,25 @@
         <span class="hero__subtitle subtitle txt-sh">Lorem ipsum dolor sit amet consectetur.</span>
         <h1 class="hero__title title txt-sh">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
         <div class="hero__buttons">
-          <a href="#" class="btn btn-a">¡Nuevos!</a>
-          <nuxt-link to="/contact" class="btn">Contactános</nuxt-link>
+          <a @click="jumpTo('.featured')" class="btn btn-a">¡Nuevos!</a>
+          <nuxt-link to="/contact" class="btn">Contáctanos</nuxt-link>
         </div>
       </div>
     </div>
   </div>  
 </template>
+<script>
+import jump from 'jump.js'
 
+export default {
+  methods: {
+    jumpTo (target) {
+      jump(target)
+    }
+  }
+
+}
+</script>
 <style lang="sass">
   @import "~assets/sass/variables"
   $hero-bg: $teal

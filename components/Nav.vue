@@ -3,17 +3,15 @@
     <div class="container">
       <div class="navbar__inner">
         <div class="navbar__brand">
-          <!-- <img src="~static/logo.jpg" alt="Veterkind Logo"> -->
+          <a class="hide-m" href="/"><img src="~static/logo.png" alt="Veterkind Logo"></a>
+          <a class="hide-t" href="/"><img src="~static/logo_mini.png" alt="Veterkind Logo"></a>
         </div>
         <div class="navbar__links">
           <a href="/">Inicio</a>
-          <a @click="jumpTo('.about-us')">Nosotros</a>
-          <a>Productos</a>
-          <a @click="jumpTo('.quality')">Fabricación</a>
+          <nuxt-link to="/products">Productos</nuxt-link>
         </div>
         <div class="navbar__right">
-           <a href="" class="btn btn-p filled">Contactános</a>
-           <a href="">Quo.</a>
+           <a href="" class="btn btn-p filled"><Support class="icon"/> Contacto</a>
         </div>
       </div>
     </div>
@@ -21,9 +19,13 @@
 </template>
 
 <script>
+import Support from '~/static/svg/support.svg'
 import jump from 'jump.js'
 
 export default {
+  components: {
+    Support
+  },
   methods: {
     jumpTo (target) {
       jump(target)
@@ -51,14 +53,19 @@ export default {
       align-items: center
       .navbar__brand
         height: 100%
-        display: flex
-        align-items: center
-        img
-          max-height: 80%
-          height: auto
+        a 
+          height: 70px         
+          display: flex
+          align-items: center
+        img          
+          max-height: 70%
+          width: auto
+          opacity: .7
       .navbar__links 
         margin-left: 1rem
         flex-grow: 1
+        text-align: right
+        margin-right: .75rem
         a
           cursor: pointer
           color: $dark
@@ -66,6 +73,8 @@ export default {
       .navbar__right
         a
           margin-right: 1rem
+          svg
+            fill: white
           &:not(.btn)
             color: $dark
 </style>

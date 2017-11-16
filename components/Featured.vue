@@ -2,8 +2,8 @@
   <div class="featured">
     <div class="featured__inner home-block">
       <div class="heading">
-        <span class="subtitle txt-sh"> Check our stuff 👌</span>
-        <h1 class="title txt-sh">Featured Products</h1>
+        <span class="subtitle txt-sh">Vitrina</span>
+        <h1 class="title txt-sh">Productos Populares</h1>
       </div>
       <div class="columns featured__products">
         <div class="column is-one-third">
@@ -47,7 +47,7 @@
         </div>
       </div>
       <div class="featured__buttons">
-        <a href="" class="btn btn-a">More Products</a>
+        <nuxt-link to="/products" class="btn btn-a">Ver catálogo</nuxt-link>
       </div>
     </div>
   </div>
