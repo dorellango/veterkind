@@ -70,15 +70,6 @@ import Location from '~/static/svg/location.svg'
 import Smartphone from '~/static/svg/smartphone.svg'
 import Clock from '~/static/svg/clock.svg'
 
-import Vue from 'vue'
-import * as VueGoogleMaps from '~/node_modules/vue2-google-maps/src/main'
-
-Vue.use(VueGoogleMaps, {
-  load: {
-    key: 'AIzaSyDcXMALlb6245oK84phgido-lK1IboU77E'
-  }
-})
-
 export default {
   components: {
     Nav,

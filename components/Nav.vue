@@ -11,7 +11,7 @@
           <nuxt-link to="/products">Productos</nuxt-link>
         </div>
         <div class="navbar__right">
-           <a href="" class="btn btn-p filled"><Support class="icon icon-2"/> Contacto</a>
+           <a href="/contact" class="btn btn-p filled"><Support class="icon icon-2"/> Contacto</a>
         </div>
       </div>
     </div>

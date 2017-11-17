@@ -22,6 +22,8 @@ module.exports = {
   ** Build configuration
   */
   build: {
+
+    vendor: ['vue2-google-maps'],
     /*
     ** Run ESLint on save
     */
@@ -47,5 +49,6 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  plugins: ['~/plugins/vue2-google-maps.js'],
 }
