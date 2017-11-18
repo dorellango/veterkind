@@ -21,6 +21,20 @@
             </div>
           </div>
         </div>
+        <div class="product__item">
+          <div class="product__image box-sh">
+            <img src="~/static/about-us.jpg" alt="">
+          </div>
+          <div class="product__content">
+            <span class="product__meta subtitle">Veterinary</span>
+            <h2 class="product__heading">Lorem ipsum dolor sit amet.</h2>
+            <div class="product__body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, illo velit. Dolores explicabo assumenda fugiat?</p>
+              <p>Nam, magni veniam dicta ipsum pariatur vel id iure velit, amet ab quas aliquid dignissimos?</p>
+              <p>Provident animi facere in, alias rem ad iste, quibusdam dolorum eum, nam debitis voluptatibus perspiciatis?</p>
+            </div>
+          </div>
+        </div>
 
         <!-- Where buy? -->
         <div class="where-buy">
