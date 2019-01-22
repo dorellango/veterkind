@@ -8,9 +8,10 @@
       <div class="columns">
         <div class="column is-half">
           <div class="about-us__body">
-            <p><strong>Lorem ipsum dolor sit amet</strong> consectetur adipisicing elit. Culpa deserunt pariatur, cum consequuntur architecto aspernatur!</p>     
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis deserunt, excepturi tempora tenetur necessitatibus expedita adipisci omnis doloremque, neque rerum commodi esse ullam unde?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, error impedit libero quaerat numquam sint repudiandae et. Dolorem molestiae cupiditate exercitationem consequuntur ratione suscipit vero fuga odit ipsa porro accusamus quaerat iusto, blanditiis corrupti veritatis.</p>
+            <p><strong>Veterkind</strong>, nace de los requerimientos de nuestros clientes del área médica Veterinaria y humana.</p>     
+            <p>Retroalimentandonos de estos, es que se crea la línea y se diseña a partir del año 2011, nuestra línea única de Mesas Veterinarias, ganadora de <strong>SERCOTEC año 2013</strong>, que dio un gran impulso a las nuevas líneas, obteniendo un gran éxito hasta el día de hoy.</p>
+            <p>Bajo la misma marca el desarrollo de caniles, cunas, jaulas trampas, porta sueros y otros, a medida y bajo estrictos estándares de construcción y diseño  a carago de un Ingeniero Industrial, nos han dado un importante lugar como proveedores a nivel nacional.</p>
+            <p>Las garantías ofrecidas, nuestro servicio pos venta rápido y eficaz, nos permiten seguir siendo los primeros fabricantes en todo nuestro Pais.</p>
           </div>
         </div>
         <div class="column is-half">

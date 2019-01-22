@@ -11,14 +11,14 @@
             <Worker class="quality__image"/>
             <div class="quality__body">
               <h4>Producto original</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laborum?</p>
+              <p>Nuestas líneas son fabricadas 100% en nuestros talleres de metalmecánica, producto CHILENO.</p>
             </div>
           </div>
           <div class="quality__item">
             <Gear class="quality__image"/>
             <div class="quality__body">
               <h4>A medida</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laborum?</p>
+              <p>Para satisfacer los requerimientos de nuestros clientes, se realizan visitas a terreno, de tal suerte de adecuar los muebles clínicos, Caniles de hospitalización, de guarda, etc.</p>
             </div>
           </div>
         </div>
@@ -27,14 +27,14 @@
             <Monitor class="quality__image"/>
             <div class="quality__body">
               <h4>Cálidad superior</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laborum?</p>
+              <p>Las materias primas utilizadas, cumplen con protocolos de alta calidad en aceros grado médico, Polimeros, Eco químicos, y un estricto control de calidad.</p>
             </div>
           </div>
           <div class="quality__item">
             <Customer class="quality__image"/>
             <div class="quality__body">
               <h4>Clientes satisfechos</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laborum?</p>
+              <p>Veterkind, es reconocido por nuestros clientes privados y más de 100 Municipios,  que cuentan con nuestras Mesas Quirúrgicas para satisfacer los programas de esterilización a nivel Nacional, así como clínicas móviles.</p>
             </div>
           </div>
         </div>
