@@ -3,15 +3,17 @@
     <div class="hero__image"></div>
     <div class="container hero__inner">
       <div class="hero__body animated fadeIn">
-        <span class="hero__subtitle subtitle txt-sh">Lorem ipsum dolor sit amet consectetur.</span>
-        <h1 class="hero__title title txt-sh">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+        <span class="hero__subtitle subtitle txt-sh">Bienvenidos a Veterkind</span>
+        <h1
+          class="hero__title title txt-sh">
+          Muebles clínicos a medida.</h1>
         <div class="hero__buttons">
-          <a @click="jumpTo('.featured')" class="btn btn-a">¡Nuevos!</a>
+          <a @click="jumpTo('.featured')" class="btn btn-a">Productos</a>
           <nuxt-link to="/contact" class="btn">Contáctanos</nuxt-link>
         </div>
       </div>
     </div>
-  </div>  
+  </div>
 </template>
 <script>
 import jump from 'jump.js'
@@ -22,7 +24,6 @@ export default {
       jump(target)
     }
   }
-
 }
 </script>
 <style lang="sass">
@@ -30,14 +31,14 @@ export default {
   @import "~assets/sass/mixins"
 
   $hero-bg: $teal
-  
+
   .hero
     height: 100vh
     margin-top: -70px
     position: relative
     background-color: rgba($hero-bg, .4)
     .hero__image
-      background-image: url(~static/banner.jpg)
+      background-image: url(~static/hero.jpg)
       background-size: cover
       position: absolute
       top: 0
