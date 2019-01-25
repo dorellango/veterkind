@@ -9,7 +9,7 @@
         <img class="sponsored" src="~static/sercotec.png" alt="">
       </div>
       <div class="copyright">
-        <strong>&copy; Veterkind Ltda. 2017</strong> / Innovación y Productividad.
+        <strong>&copy; Veterkind Ltda. 2019</strong> / Muebles clínicos a medida.
       </div>
     </div>
   </div>
@@ -28,12 +28,12 @@ export default {
 <style lang="sass">
   @import '~assets/sass/variables'
   @import '~assets/sass/mixins'
-  
+
   .bottom
     text-align: center
     background-color: $darkest
     color: $light
-    .bottom__inner  
+    .bottom__inner
       padding: 4rem 1rem
     .bottom__links
       margin-bottom: 1.25rem
@@ -57,9 +57,8 @@ export default {
       margin-top: .75rem
       height: 50px
       opacity: .8
-    .copyright 
+    .copyright
       color: $dark
       strong
         color: $light
 </style>
-
