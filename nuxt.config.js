@@ -3,7 +3,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'veterkind',
+    title: 'Veterkind - Muebles clínicos a medida.',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -27,7 +27,7 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
       /*
       ** Change img rule to load SVG's with vue-svg-loader
       */
@@ -39,7 +39,7 @@ module.exports = {
         loader: 'vue-svg-loader',
         exclude: /(node_modules)/
       })
-      
+
       if (ctx.dev && ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
