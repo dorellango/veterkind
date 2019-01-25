@@ -6,7 +6,7 @@
         <h1 class="title txt-sh">Productos Populares</h1>
       </div>
       <div class="columns featured__products">
-        <div v-for="(product, index) in products" :key="index" class="column is-one-third">
+        <div v-for="(product, index) in products" :key="index" class="column is-one-half">
           <div class="card">
             <div class="card__media box-sh">
               <img :src="getImageUrl(product.image)" alt="">
