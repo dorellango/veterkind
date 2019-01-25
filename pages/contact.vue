@@ -22,11 +22,11 @@
                     <div class="contact__body">
                       <h4>Información</h4>
                       <ul>
-                        <li><Smartphone class="icon"/>+123 123143534</li>
-                        <li><Mail class="icon"/>info@veterkind.cl</li>
-                        <li><Location class="icon"/>Golfo Tinidad 1026</li>
+                        <li><Smartphone class="icon"/>+562 27891356</li>
+                        <li><Mail class="icon"/>contacto@veterkind.cl</li>
+                        <li><Location class="icon"/>Clorinda Henríquez 80, La Reina.</li>
                       </ul>
-                    </div>                    
+                    </div>
                   </div>
                 </div>
                 <div class="column is-one-third">
@@ -34,11 +34,11 @@
                     <div class="contact__body">
                       <h4>General</h4>
                       <ul>
-                        <li><Smartphone class="icon"/>+123 123143534</li>
+                        <li><Smartphone class="icon"/>+562 32299483</li>
                         <li><Mail class="icon"/>info@veterkind.cl</li>
                         <li><Clock class="icon"/>10:00 - 19:00 hrs</li>
                       </ul>
-                    </div>                    
+                    </div>
                   </div>
                 </div>
                 <div class="column is-one-third">
@@ -46,16 +46,16 @@
                     <div class="contact__body">
                       <h4>Ventas</h4>
                       <ul>
-                        <li><Smartphone class="icon"/>+123 123143534</li>
+                        <li><Smartphone class="icon"/>+569 90300135</li>
                         <li><Mail class="icon"/>ventas@veterkind.cl</li>
                         <li><Clock class="icon"/>10:00 - 19:00 hrs</li>
                       </ul>
-                    </div>                    
+                    </div>
                   </div>
                 </div>
-              </div>              
+              </div>
             </div>
-          </div> 
+          </div>
         </div>
       </div>
     <Bottom/>
@@ -108,4 +108,3 @@ export default {
               margin-right: .5rem
               fill: $teal-lighter
 </style>
-

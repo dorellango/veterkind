@@ -5,7 +5,7 @@
         <a href="/">Inicio</a>
         <a href="/contact">Contacto</a>
         <a href="/products">Productos</a>
-        <a href=""><Smartphone class="icon"/> +6718246723</a>
+        <a href=""><Smartphone class="icon"/> +562 27891356</a>
         <img class="sponsored" src="~static/sercotec.png" alt="">
       </div>
       <div class="copyright">
