@@ -7,31 +7,15 @@
         <h1 class="title txt-sh">Catálogo completo</h1>
       </div>
       <div class="container products__inner">
-        <div class="product__item">
+        <div v-for="(product, index) in products" :key="index" class="product__item">
           <div class="product__image box-sh">
-            <img src="~/static/about-us.jpg" alt="">
+            <img :src="getImageUrl(product.image)" alt="">
           </div>
           <div class="product__content">
-            <span class="product__meta subtitle">Veterinary</span>
-            <h2 class="product__heading">Lorem ipsum dolor sit amet.</h2>
+            <span class="product__meta subtitle">Veterinaria</span> <!-- TODO add custom category -->
+            <h2 class="product__heading" v-text="product.title"></h2>
             <div class="product__body">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, illo velit. Dolores explicabo assumenda fugiat?</p>
-              <p>Nam, magni veniam dicta ipsum pariatur vel id iure velit, amet ab quas aliquid dignissimos?</p>
-              <p>Provident animi facere in, alias rem ad iste, quibusdam dolorum eum, nam debitis voluptatibus perspiciatis?</p>
-            </div>
-          </div>
-        </div>
-        <div class="product__item">
-          <div class="product__image box-sh">
-            <img src="~/static/about-us.jpg" alt="">
-          </div>
-          <div class="product__content">
-            <span class="product__meta subtitle">Veterinary</span>
-            <h2 class="product__heading">Lorem ipsum dolor sit amet.</h2>
-            <div class="product__body">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, illo velit. Dolores explicabo assumenda fugiat?</p>
-              <p>Nam, magni veniam dicta ipsum pariatur vel id iure velit, amet ab quas aliquid dignissimos?</p>
-              <p>Provident animi facere in, alias rem ad iste, quibusdam dolorum eum, nam debitis voluptatibus perspiciatis?</p>
+              <p v-text="product.description"></p>
             </div>
           </div>
         </div>
@@ -40,21 +24,32 @@
         <div class="where-buy">
           <span class="subtitle">Encuentra nuestros productos en:</span>
           <div class="where-buy__places">
-            <a href="http://www.osm.cl"><img src="https://www.osm.cl/wp-content/uploads/2016/11/osm_logo.png" alt=""></a>
+            <a href="https://www.osm.cl/tienda?s=veterkind&post_type=product"><img src="https://www.osm.cl/wp-content/uploads/2016/11/osm_logo.png" alt=""></a>
             <a href=""><img src="https://newrelic.cdn.prismic.io/newrelic/972eb862e5d3a50e4f7c525b931458e89d292835_casestudy_mercadolibre_logo.png" alt=""></a>
           </div>
         </div>
       </div>
     </div>
     <Bottom/>
-  </div>  
+  </div>
 </template>
 
 <script>
 import Nav from '~/components/Nav.vue'
 import Bottom from '~/components/Bottom.vue'
+import products from '~/components/products.js'
 
 export default {
+  data () {
+    return {
+      products: products
+    }
+  },
+  methods: {
+    getImageUrl (image) {
+      return require(`static/${image}`)
+    }
+  },
   components: {
     Nav,
     Bottom
@@ -86,6 +81,7 @@ export default {
         margin-bottom: 1.25rem
       .product__image
         width: 33.33%
+        flex-shrink: 0
         height: auto
         position: relative
         +mobile
@@ -118,7 +114,7 @@ export default {
           margin-bottom: .5rem
         .product__body
           color: $grey
-    
+
     .where-buy
       padding-top: 1rem
       border-top: 1px dashed $light
@@ -144,4 +140,3 @@ export default {
             filter: grayscale(0%)
 
 </style>
-

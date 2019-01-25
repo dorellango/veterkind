@@ -6,42 +6,14 @@
         <h1 class="title txt-sh">Productos Populares</h1>
       </div>
       <div class="columns featured__products">
-        <div class="column is-one-third">
+        <div v-for="(product, index) in products" :key="index" class="column is-one-third">
           <div class="card">
             <div class="card__media box-sh">
-              <img src="~static/about-us.jpg" alt="">
+              <img :src="getImageUrl(product.image)" alt="">
             </div>
             <div class="card__content">
-              <h4 class="card__heading">Lorem, ipsum dolor.</h4>
-              <span class="card__meta">
-                Provident voluptate.
-              </span>
-            </div>
-          </div>
-        </div>
-        <div class="column is-one-third">
-          <div class="card">
-            <div class="card__media box-sh">
-              <img src="~static/about-us.jpg" alt="">
-            </div>
-            <div class="card__content">
-              <h4 class="card__heading">Lorem, ipsum dolor.</h4>
-              <span class="card__meta">
-                Provident voluptate.
-              </span>
-            </div>
-          </div>
-        </div>
-        <div class="column is-one-third">
-          <div class="card">
-            <div class="card__media box-sh">
-              <img src="~static/about-us.jpg" alt="">
-            </div>
-            <div class="card__content">
-              <h4 class="card__heading">Lorem, ipsum dolor.</h4>
-              <span class="card__meta">
-                Provident voluptate.
-              </span>
+              <h4 class="card__heading" v-text="product.title">.</h4>
+              <span class="card__meta" v-text="product.short_description"></span>
             </div>
           </div>
         </div>
@@ -55,8 +27,19 @@
 
 <script>
 import Shop from '~/static/svg/shop.svg'
+import products from './products.js'
 
 export default {
+  data () {
+    return {
+      products: products
+    }
+  },
+  methods: {
+    getImageUrl (image) {
+      return require(`static/${image}`)
+    }
+  },
   components: {
     Shop
   }
@@ -83,4 +66,3 @@ export default {
       text-align: center
 
 </style>
-
