@@ -23,7 +23,7 @@
                       <h4>Información</h4>
                       <ul>
                         <li><Smartphone class="icon"/>+562 27891356</li>
-                        <li><Mail class="icon"/>contacto@veterkind.cl</li>
+                        <li><Mail class="icon"/><a href="mailto:contacto@osm.cl">contacto@osm.cl</a></li>
                         <li><Location class="icon"/>Clorinda Henríquez 80, La Reina.</li>
                       </ul>
                     </div>
@@ -35,8 +35,8 @@
                       <h4>General</h4>
                       <ul>
                         <li><Smartphone class="icon"/>+562 32299483</li>
-                        <li><Mail class="icon"/>info@veterkind.cl</li>
-                        <li><Clock class="icon"/>10:00 - 19:00 hrs</li>
+                        <li><Mail class="icon"/><a href="mailto:jbarahona@osm.cl">jbarahona@osm.cl</a></li>
+                        <li><Clock class="icon"/>10:00 - 18:00 hrs</li>
                       </ul>
                     </div>
                   </div>
@@ -47,8 +47,8 @@
                       <h4>Ventas</h4>
                       <ul>
                         <li><Smartphone class="icon"/>+569 90300135</li>
-                        <li><Mail class="icon"/>ventas@veterkind.cl</li>
-                        <li><Clock class="icon"/>10:00 - 19:00 hrs</li>
+                        <li><Mail class="icon"/><a href="mailto:jbarahona@osm.cl">jbarahona@osm.cl</a></li>
+                        <li><Clock class="icon"/>10:00 - 18:00 hrs</li>
                       </ul>
                     </div>
                   </div>
@@ -104,6 +104,8 @@ export default {
         ul
           li
             margin-bottom: .75rem
+            a
+              color: inherit
             svg.icon
               margin-right: .5rem
               fill: $teal-lighter
