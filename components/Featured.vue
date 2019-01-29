@@ -32,7 +32,7 @@ import products from './products.js'
 export default {
   data () {
     return {
-      products: products
+      products: products.slice(0, 3)
     }
   },
   methods: {
