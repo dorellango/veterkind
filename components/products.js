@@ -1,11 +1,5 @@
 let products = [
   {
-    title: 'Porta Sueros',
-    short_description: 'Estructura en perfil cuadrado de 1.0 mm. [...]',
-    description: 'Estructura en perfil cuadrado de 1.0 mm. Pintura Martillado grafito. Bandeja de acero inoxidable. Altura regulable. Dimensiones  BANDEJA 40X30. Color GRIS. Marca Veterkind ®, hecho en CHILE.',
-    image: 'porta-sueros.jpg'
-  },
-  {
     title: 'Camilla Transporte Veterinaria Plegable',
     short_description: 'Mesa-camilla de exploración plegable con ruedas. [...]',
     description: 'Mesa-camilla de exploración plegable con ruedas. Estructura 100% metálica, ultra liviana, inoxidable. Fabricación propia OSM Ltda. de la línea muebles clínicos Veterkind®. Resiste hasta 90 kilos. Superficie de lona ultra resistente, impermeable y lavable. Ruedas giratorias de alto tráfico con freno. Sujeción, correas con velcro para seguridad y control animal. Plegable para mayor comodidad. Garantía 1 año. Largo: 100cm, Ancho: 50cm, Alto: 80cm. Color según disponibilidad.',

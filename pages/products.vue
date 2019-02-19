@@ -25,7 +25,6 @@
           <span class="subtitle">Encuentra nuestros productos en:</span>
           <div class="where-buy__places">
             <a href="https://www.osm.cl/tienda?s=veterkind&post_type=product"><img src="https://www.osm.cl/wp-content/uploads/2016/11/osm_logo.png" alt=""></a>
-            <a href=""><img src="https://newrelic.cdn.prismic.io/newrelic/972eb862e5d3a50e4f7c525b931458e89d292835_casestudy_mercadolibre_logo.png" alt=""></a>
           </div>
         </div>
       </div>
