@@ -1,5 +1,35 @@
 let products = [
   {
+    title: 'Mesa Quirúrgica Completa',
+    short_description: 'Cubierta en acero inoxidable grado médico, plegable [...]',
+    description: 'Totalmente Plegable. Estructura 100% metálica, medidas 1.20 de largo x 60 de ancho y 85 de alto regulable hasta 1, 0 mt. Manijas laterales para fijación de paciente, manilla para traslado y canal diamantado y orificio de drenaje. Porta bandeja movible en 360º, porta suero con 4 ganchos desmontable, lámpara clínica con cuello flexible, recipiente de acero para fluidos. Lámpara clínica con cuello flexible todas las posiciones desmontable.',
+    image: 'quirurgica-completa.jpg'
+  },
+  {
+    title: 'Mesa de Examen Básica',
+    short_description: 'Cubierta en acero inoxidable grado médico, plegable [...]',
+    description: 'Totalmente Plegable. Estructura 100% metálica, medidas 1.20 de largo x 60 de ancho y 85 de alto regulable hasta 1, 0 mt. Manijas laterales para fijación de paciente, manilla para traslado y canal diamantado y orificio de drenaje. Regulador de alzador de funcionamiento independiente(en caso que la mesa esté ubicada en superficie irregular, lo que le a nos centímetros más de altura). Cubierta en acero inoxidable grado médico.',
+    image: 'quirurgica-basica.jpg'
+  },
+  {
+    title: 'Mesa Mayo (con freno)',
+    short_description: 'Estructura en perfil cuadrado de 1.0 mm. [...]',
+    description: 'Estructura en perfil cuadrado de 1.0 mm. Pintura Martillado grafito, bandeja de acero inoxidable y de altura regulable. Incluye ruedas con freno. Dimensiones  BANDEJA 40X30. Color GRIS. Marca Veterkind®, hecha en CHILE.',
+    image: 'mesa-mayo-freno.jpg'
+  },
+  {
+    title: 'Mesa Mayo',
+    short_description: 'Estructura en perfil cuadrado de 1.0 mm. [...]',
+    description: 'Estructura en perfil cuadrado de 1.0 mm. Pintura Martillado grafito, bandeja de acero inoxidable y de altura regulable. Dimensiones  BANDEJA 40X30. Color GRIS. Marca Veterkind®, gecha en CHILE.',
+    image: 'mesa-mayo.jpg'
+  },
+  {
+    title: 'Porta Sueros',
+    short_description: 'Estructura en perfil cuadrado de 1.0 mm. [...]',
+    description: 'Estructura en perfil cuadrado de 1.0 mm. Pintura Martillado grafito. Bandeja de acero inoxidable. Altura regulable. Dimensiones  BANDEJA 40X30. Color GRIS. Marca Veterkind ®, hecho en CHILE.',
+    image: 'porta-sueros.jpg'
+  },
+  {
     title: 'Camilla Transporte Veterinaria Plegable',
     short_description: 'Mesa-camilla de exploración plegable con ruedas. [...]',
     description: 'Mesa-camilla de exploración plegable con ruedas. Estructura 100% metálica, ultra liviana, inoxidable. Fabricación propia OSM Ltda. de la línea muebles clínicos Veterkind®. Resiste hasta 90 kilos. Superficie de lona ultra resistente, impermeable y lavable. Ruedas giratorias de alto tráfico con freno. Sujeción, correas con velcro para seguridad y control animal. Plegable para mayor comodidad. Garantía 1 año. Largo: 100cm, Ancho: 50cm, Alto: 80cm. Color según disponibilidad.',
@@ -16,18 +46,6 @@ let products = [
     short_description: 'Caniles a medida cierre malla o galvanizado [...]',
     description: 'Caniles a medida cierre malla o galvanizado. Medidas a solicitud. Módulos apilables. Opción con ruedas en base. Perfil 30/20 - 20/20. Malla Soldgalv 3,4, en puerta y muros. Picaportes de seguridad. Pernos de montaje. Soldadura Mig. Bandeja recolectora en 1,5mm lavable. Opción 100% en acero inoxidable.',
     image: 'caniles-modulares.jpg'
-  },
-  {
-    title: 'Mesa Quirúrgica Completa',
-    short_description: 'Cubierta en acero inoxidable grado médico, plegable [...]',
-    description: 'Totalmente Plegable. Estructura 100% metálica, medidas 1.20 de largo x 60 de ancho y 85 de alto regulable hasta 1, 0 mt. Manijas laterales para fijación de paciente, manilla para traslado y canal diamantado y orificio de drenaje. Porta bandeja movible en 360º, porta suero con 4 ganchos desmontable, lámpara clínica con cuello flexible, recipiente de acero para fluidos. Lámpara clínica con cuello flexible todas las posiciones desmontable.',
-    image: 'quirurgica-completa.jpg'
-  },
-  {
-    title: 'Mesa de Examen Básica',
-    short_description: 'Cubierta en acero inoxidable grado médico, plegable [...]',
-    description: 'Totalmente Plegable. Estructura 100% metálica, medidas 1.20 de largo x 60 de ancho y 85 de alto regulable hasta 1, 0 mt. Manijas laterales para fijación de paciente, manilla para traslado y canal diamantado y orificio de drenaje. Regulador de alzador de funcionamiento independiente(en caso que la mesa esté ubicada en superficie irregular, lo que le a nos centímetros más de altura). Cubierta en acero inoxidable grado médico.',
-    image: 'quirurgica-basica.jpg'
   }
 ]
 

@@ -9,7 +9,13 @@
         <img class="sponsored" src="~static/sercotec.png" alt="">
       </div>
       <div class="copyright">
-        <strong>&copy; Veterkind Ltda. 2019</strong> / Muebles clínicos a medida.
+        <div>
+          &copy; 2019 Veterkind Ltda. - Muebles clínicos a medida
+
+        </div>
+        <div>
+          Veterkind es una marca de <a href="">OSM Ltda.</a>
+        </div>
       </div>
     </div>
   </div>
@@ -58,7 +64,12 @@ export default {
       height: 50px
       opacity: .8
     .copyright
+      display: flex
+      justify-content: space-between
       color: $dark
+      font-size: 14px
+      a
+        color: $grey
       strong
         color: $light
 </style>
