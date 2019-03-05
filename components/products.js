@@ -12,15 +12,15 @@ let products = [
     image: 'quirurgica-basica.jpg'
   },
   {
-    title: 'Mesa Mayo (con freno)',
+    title: 'Mesa Mayo',
     short_description: 'Estructura en perfil cuadrado de 1.0 mm. [...]',
     description: 'Estructura en perfil cuadrado de 1.0 mm. Pintura Martillado grafito, bandeja de acero inoxidable y de altura regulable. Incluye ruedas con freno. Dimensiones  BANDEJA 40X30. Color GRIS. Marca Veterkind®, hecha en CHILE.',
-    image: 'mesa-mayo-freno.jpg'
+    image: 'mesa-mayo-2.jpg'
   },
   {
     title: 'Mesa Mayo',
     short_description: 'Estructura en perfil cuadrado de 1.0 mm. [...]',
-    description: 'Estructura en perfil cuadrado de 1.0 mm. Pintura Martillado grafito, bandeja de acero inoxidable y de altura regulable. Dimensiones  BANDEJA 40X30. Color GRIS. Marca Veterkind®, gecha en CHILE.',
+    description: 'Estructura en perfil cuadrado de 1.0 mm. Pintura Martillado grafito, bandeja de acero inoxidable y de altura regulable. Incluye ruedas con freno. Dimensiones  BANDEJA 40X30. Color GRIS. Marca Veterkind®, gecha en CHILE.',
     image: 'mesa-mayo.jpg'
   },
   {

@@ -2,7 +2,7 @@
   <div class="quality">
     <div class="container home-block quality__inner">
       <div class="home-heading">
-        <span class="subtitle">¡Cálidad primero!</span>
+        <span class="subtitle">¡Calidad primero!</span>
         <h1 class="title">Fabricación</h1>
       </div>
       <div class="columns">
@@ -26,7 +26,7 @@
           <div class="quality__item">
             <Monitor class="quality__image"/>
             <div class="quality__body">
-              <h4>Cálidad superior</h4>
+              <h4>Calidad superior</h4>
               <p>Las materias primas utilizadas, cumplen con protocolos de alta calidad en aceros grado médico, Polimeros, Eco químicos, y un estricto control de calidad.</p>
             </div>
           </div>
@@ -85,4 +85,3 @@ export default {
           font-weight: bold
           letter-spacing: 1.2px
 </style>
-
