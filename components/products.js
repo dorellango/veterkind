@@ -1,5 +1,11 @@
 let products = [
   {
+    title: 'Portasueros para Canil',
+    short_description: 'Diseñados especialmente para la hospitalización [...]',
+    description: 'Nuestro portasueros para canil están diseñados especialmente para la hospitalización, en nuestros 2 modelos, se ajustan a la rejilla del canil, otorgando un ajuste seguro y práctico para la administración de terapia de fluidos en nuestros pacientes hospitalizados. Estructura en perfil de 1.0mm. Pintura electroestática al horno. Sistema opcional con o sin bandeja. Sencillo sistema de anclaje, fácilmente desmontable y con ajuste seguro anticaída. Marca Veterkind®, hecho en CHILE.',
+    image: 'portasueros-canil.jpg'
+  },
+  {
     title: 'Mesa Quirúrgica Completa',
     short_description: 'Cubierta en acero inoxidable grado médico, plegable [...]',
     description: 'Totalmente Plegable. Estructura 100% metálica, medidas 1.20 de largo x 60 de ancho y 85 de alto regulable hasta 1, 0 mt. Manijas laterales para fijación de paciente, manilla para traslado y canal diamantado y orificio de drenaje. Porta bandeja movible en 360º, porta suero con 4 ganchos desmontable, lámpara clínica con cuello flexible, recipiente de acero para fluidos. Lámpara clínica con cuello flexible todas las posiciones desmontable.',
@@ -14,13 +20,13 @@ let products = [
   {
     title: 'Mesa Mayo',
     short_description: 'Estructura en perfil cuadrado de 1.0 mm. [...]',
-    description: 'Estructura en perfil cuadrado de 1.0 mm. Pintura Martillado grafito, bandeja de acero inoxidable y de altura regulable. Incluye ruedas con freno. Dimensiones  BANDEJA 40X30. Color GRIS. Marca Veterkind®, hecha en CHILE.',
+    description: 'Estructura en perfil cuadrado de 1.0 mm. Pintura Martillado grafito, bandeja de acero inoxidable y de altura regulable. Incluye ruedas con freno. Dimensiones  BANDEJA 40X30. Color GRIS. Marca Veterkind®, hecho en CHILE.',
     image: 'mesa-mayo-2.jpg'
   },
   {
     title: 'Mesa Mayo',
     short_description: 'Estructura en perfil cuadrado de 1.0 mm. [...]',
-    description: 'Estructura en perfil cuadrado de 1.0 mm. Pintura Martillado grafito, bandeja de acero inoxidable y de altura regulable. Incluye ruedas con freno. Dimensiones  BANDEJA 40X30. Color GRIS. Marca Veterkind®, gecha en CHILE.',
+    description: 'Estructura en perfil cuadrado de 1.0 mm. Pintura Martillado grafito, bandeja de acero inoxidable y de altura regulable. Incluye ruedas con freno. Dimensiones  BANDEJA 40X30. Color GRIS. Marca Veterkind®, hecho en CHILE.',
     image: 'mesa-mayo.jpg'
   },
   {
