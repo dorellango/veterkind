@@ -12,7 +12,11 @@
             <img :src="getImageUrl(product.image)" alt="">
           </div>
           <div class="product__content">
-            <span class="product__meta subtitle">Veterinaria</span> <!-- TODO add custom category -->
+            <div class="product__meta">
+              <span class="subtitle" style="display: inline-block; margin-right: 2px;">Veterinaria</span> <!-- TODO add custom category -->
+              <span v-show="product.is_new" class=""
+                style="border-color: #f6993f; background-color: #f6993f; padding: 2px 4px; color:white; font-size: x-small; border-radius: 5px; text-transform: uppercase;">nuevo</span>
+            </div>
             <h2 class="product__heading" v-text="product.title"></h2>
             <div class="product__body">
               <p v-text="product.description"></p>

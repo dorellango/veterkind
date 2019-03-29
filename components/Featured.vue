@@ -8,7 +8,8 @@
       <div class="columns featured__products">
         <div v-for="(product, index) in products" :key="index" class="column is-one-half">
           <div class="card">
-            <div class="card__media box-sh">
+            <div class="card__media box-sh" style="position:relative">
+              <span v-show="product.is_new" class="" style="position: absolute; top: 5px; left: 5px; border-color: #f6993f; background-color: #f6993f; padding: 2px 4px; color:white; font-size: x-small; border-radius: 5px; text-transform: uppercase;">nuevo</span>
               <img :src="getImageUrl(product.image)" alt="">
             </div>
             <div class="card__content">

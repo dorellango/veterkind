@@ -6,6 +6,13 @@ let products = [
   //   image: 'portasueros-canil.jpg'
   // },
   {
+    title: 'Mesa Quirúrgica Veterinaria 3600',
+    short_description: '•Elevación con ajuste hidráulico hasta 45º (Trendelenburg) [...]',
+    description: 'Totalmente Plegable. Cubierta en acero inoxidable grado médico. Elevación con ajuste hidráulico hasta 45º (Trendelenburg). Con canal diamantado y orificio de drenaje. Porta recipiente movible y desmontable. Recipiente de acero para fluidos . Porta bandeja movible en 360º . Bandeja de acero inoxidable para instrumentos quirúrgicos desmontable. Bandeja para ayudante desmontable. Brazo acero para cogotera, altura regulable, desmontable. Estructura 100% metálica . Porta suero con 4 ganchos desmontable. Porta monitor multiparámetros ajustable en altura y sistema seguridad anti caídas (monitor no incluido), desmontable. Lámpara clínica con cuello flexible todas las posiciones desmontable. Ampolleta iluminación LED incluida. 1.20 de largo x 60 de ancho y 85 de alto. Mesa con altura regulable hasta 1 metro. Manijas laterales para fijación de paciente. Ruedas con freno de alta resistencia. Plegable para uso en terreno u operativos veterinarios. Todos los accesorios desmontables e intercambiables de posición. Manilla para traslado. Estructura perfil de 1mm. Pintura electroestática al horno. Garantía 5 años. Marca Veterkind®, hecho en CHILE.',
+    image: 'mesa-3600.jpg',
+    is_new: true
+  },
+  {
     title: 'Portasueros para Canil',
     short_description: 'Diseñados especialmente para la hospitalización [...]',
     description: 'Nuestro portasueros para canil están diseñados especialmente para la hospitalización, en nuestros 2 modelos, se ajustan a la rejilla del canil, otorgando un ajuste seguro y práctico para la administración de terapia de fluidos en nuestros pacientes hospitalizados. Estructura en perfil de 1.0mm. Pintura electroestática al horno. Sistema opcional con o sin bandeja. Sencillo sistema de anclaje, fácilmente desmontable y con ajuste seguro anticaída. Marca Veterkind®, hecho en CHILE.',
