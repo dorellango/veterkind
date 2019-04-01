@@ -9,3 +9,7 @@ npm-debug.log
 
 # Nuxt generate
 dist
+
+# VSCODE
+.DS_Store
+static/.DS_Store
