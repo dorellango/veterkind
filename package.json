@@ -2,7 +2,7 @@
   "name": "veterkind",
   "version": "1.0.0",
   "description": "Veterkind website",
-  "author": "Diego Orellana <diegoorellana@MacBook-Pro-de-Diego.local>",
+  "author": "Diego Orellana <dev@dorellango.cl>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -13,13 +13,15 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/style-resources": "^0.1.2",
     "animate.css": "^3.6.1",
     "jump.js": "^1.0.2",
     "minireset.css": "0.0.3",
-    "node-sass": "^4.7.2",
-    "nuxt": "^1.4.0",
+    "node-sass": "^4.12.0",
+    "nuxt": "^2.6.3",
     "sass-loader": "^6.0.7",
     "vue-svg-loader": "^0.5.0",
+    "vue-template-compiler": "^2.6.10",
     "vue2-google-maps": "^0.10.5"
   },
   "devDependencies": {
@@ -31,6 +33,7 @@
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "tailwindcss": "^0.7.4"
   }
 }

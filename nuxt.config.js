@@ -18,36 +18,16 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
+  css: ['@/assets/css/tailwind.css'],
   /*
   ** Build configuration
   */
   build: {
-
     vendor: ['vue2-google-maps'],
     /*
     ** Run ESLint on save
     */
     extend(config, ctx) {
-      /*
-      ** Change img rule to load SVG's with vue-svg-loader
-      */
-      const urlLoader = config.module.rules.find((rule) => rule.loader === 'url-loader')
-      urlLoader.test = /\.(png|jpe?g|gif)$/
-
-      config.module.rules.push({
-        test: /\.svg$/,
-        loader: 'vue-svg-loader',
-        exclude: /(node_modules)/
-      })
-
-      if (ctx.dev && ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
     }
   },
   plugins: ['~/plugins/vue2-google-maps.js'],
