@@ -10,8 +10,7 @@
             Muebles clínicos a medida.
         </h1>
         <div>
-          <a @click="jumpTo('.featured')" class="btn btn-a">Productos</a>
-          <nuxt-link to="/contact" class="btn">Contáctanos</nuxt-link>
+          <a href="#" @click.prevent="jumpTo('.featured')" class="btn btn-a">Productos</a>
         </div>
       </div>
     </div>

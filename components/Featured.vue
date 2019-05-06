@@ -1,26 +1,29 @@
 <template>
-  <div class="featured">
-    <div class="featured__inner home-block">
-      <div class="heading">
-        <span class="subtitle txt-sh">Vitrina</span>
-        <h1 class="title txt-sh">Productos Populares</h1>
-      </div>
-      <div class="columns featured__products">
-        <div v-for="(product, index) in products" :key="index" class="column is-one-half">
-          <div class="card">
-            <div class="card__media box-sh" style="position:relative">
-              <span v-show="product.is_new" class="" style="position: absolute; top: 5px; left: 5px; border-color: #f6993f; background-color: #f6993f; padding: 2px 4px; color:white; font-size: x-small; border-radius: 5px; text-transform: uppercase;">nuevo</span>
-              <img :src="product.image" alt="">
+  <div class="relative">
+    <div class="container">
+      <div class="py-16">
+        <div class="mb-16 heading-pattern absolute pin-l pin-t pin-r h-72 flex justify-center items-center flex-col">
+          <span class="text-teal-lighter">Vitrina</span>
+          <h1 class="text-teal-lightest">Productos Destacados</h1>
+        </div>
+        <div class="flex flex-wrap mt-36" id="products">
+          <div v-for="(product, index) in products" :key="index" class="w-full md:w-1/3 px-4">
+            <div class="shadow-md relative">
+              <span v-show="product.is_new"
+                class="absolute pin-t pin-l mt-2 ml-2 bg-orange text-xs rounded uppercase text-orange-lightest px-2 py-1/2">
+                nuevo
+              </span>
+              <img class="align-bottom" :src="product.image" alt="">
             </div>
-            <div class="card__content">
-              <h4 class="card__heading" v-text="product.title">.</h4>
-              <span class="card__meta" v-text="product.short_description"></span>
+            <div class="border-4 border-grey-lighter py-8 px-3 transition-3 mx-4 -mt-4 mb-8 md:mb-0">
+              <h4 class="text-grey-darker font-bold text-center mb-2 font-heading" v-text="product.title">.</h4>
+              <p class="block tracking-wide text-sm text-center text-grey" v-text="product.short_description"></p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="featured__buttons">
-        <nuxt-link to="/products" class="btn btn-a">Ver catálogo</nuxt-link>
+        <div class="text-center mt-12">
+          <nuxt-link to="/products" class="btn btn-a">Ver catálogo</nuxt-link>
+        </div>
       </div>
     </div>
   </div>
@@ -34,27 +37,9 @@ export default {
     return {
       products: products.slice(0, 3)
     }
+  },
+  mounted() {
+    document.querySelector('#products').addEventListener('contextmenu', event => event.preventDefault());
   }
 }
 </script>
-
-<style lang="sass">
-  @import '~assets/sass/variables'
-  @import '~assets/sass/mixins'
-
-  .featured
-    position: relative
-    .heading
-      z-index: -1
-    .featured__products
-      margin-top: 135px
-      +mobile
-        margin-top: 100px
-    .featured__inner
-      max-width: 890px
-      margin: 0 auto
-    .featured__buttons
-      margin-top: 2.5rem
-      text-align: center
-
-</style>

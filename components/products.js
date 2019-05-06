@@ -1,21 +1,15 @@
 let products = [
-  // {
-  //   title: 'xxxxxxxxxx',
-  //   short_description: 'Diseñados especialmente para la hospitalización [...]',
-  //   description: 'Totalmente Plegable. Cubierta en acero inoxidable grado médico. Elevación con ajuste hidráulico hasta 45º (Trendelenburg). Con canal diamantado y orificio de drenaje. Porta recipiente movible y desmontable. Recipiente de acero para fluidos . Porta bandeja movible en 360º . Bandeja de acero inoxidable para instrumentos quirúrgicos desmontable. Bandeja para ayudante desmontable. Brazo acero para cogotera, altura regulable, desmontable. Estructura 100% metálica . Porta suero con 4 ganchos desmontable. Porta monitor multiparámetros ajustable en altura y sistema seguridad anti caídas (monitor no incluido), desmontable. Lámpara clínica con cuello flexible todas las posiciones desmontable. Ampolleta iluminación LED incluida. 1.20 de largo x 60 de ancho y 85 de alto.. Mesa con altura regulable hasta 1 metro. Manijas laterales para fijación de paciente. Ruedas con freno de alta resistencia. Plegable para uso en terreno u operativos veterinarios. Todos los accesorios desmontables e intercambiables de posición. Manilla para traslado. Estructura perfil de 1mm. Pintura electroestática al horno. Marca Veterkind®. Garantía 5 años. Marca Veterkind®, hecho en CHILE.',
-  //   image: 'portasueros-canil.jpg'
-  // },
   {
     title: 'Mesa Quirúrgica Veterinaria 3600',
     short_description: 'Elevación con ajuste hidráulico hasta 45º (Trendelenburg) [...]',
-    description: 'Totalmente Plegable. Cubierta en acero inoxidable grado médico. Elevación con ajuste hidráulico hasta 45º (Trendelenburg). ',
+    description: 'Con canal diamantado y orificio de drenaje. Porta recipiente movible y desmontable. Recipiente de acero para fluidos . Porta bandeja movible en 360º . Bandeja de acero inoxidable para instrumentos quirúrgicos desmontable. Bandeja para ayudante desmontable. Brazo acero para cogotera, altura regulable, desmontable. Estructura 100% metálica . Porta suero con 4 ganchos desmontable […]',
     image: 'mesa-3600.jpg',
     is_new: true
   },
   {
     title: 'Portasueros para Canil',
     short_description: 'Diseñados especialmente para la hospitalización [...]',
-    description: 'Nuestro portasueros para canil están diseñados especialmente para la hospitalización, en nuestros 2 modelos, se ajustan a la rejilla del canil, otorgando un ajuste seguro y práctico para la administración de terapia de fluidos en nuestros pacientes hospitalizados. Estructura en perfil de 1.0mm. Pintura electroestática al horno. Sistema opcional con o sin bandeja. Sencillo sistema de anclaje, fácilmente desmontable y con ajuste seguro anticaída. Marca Veterkind®, hecho en CHILE.',
+    description: 'Nuestro portasueros para canil están diseñados especialmente para la hospitalización, en nuestros 2 modelos, se ajustan a la rejilla del canil, otorgando un ajuste seguro y práctico para la administración de terapia de fluidos en nuestros pacientes hospitalizados. Estructura en perfil de 1.0mm. Pintura electroestática al horno. Sistema opcional con o sin bandeja. Sencillo sistema de anclaje, fácilmente desmontable y con ajuste seguro anticaída.',
     image: 'portasueros-canil.jpg'
   },
   {
@@ -33,13 +27,13 @@ let products = [
   {
     title: 'Mesa Mayo (40X30)',
     short_description: 'Estructura en perfil cuadrado de 1.0 mm. [...]',
-    description: 'Estructura en perfil cuadrado de 1.0 mm. Pintura Martillado grafito, bandeja de acero inoxidable y de altura regulable. Incluye ruedas con freno. Dimensiones  BANDEJA 40X30. Color GRIS. Marca Veterkind®, hecho en CHILE.',
+    description: 'Estructura en perfil cuadrado de 1.0 mm. Pintura Martillado grafito, bandeja de acero inoxidable y de altura regulable. Incluye ruedas con freno. Dimensiones  BANDEJA 40X30. Color GRIS.',
     image: 'mesa-mayo-2.jpg'
   },
   {
     title: 'Mesa Mayo (60X40)',
     short_description: 'Estructura en perfil cuadrado de 1.0 mm. [...]',
-    description: 'Estructura en perfil cuadrado de 1.0 mm. Pintura Martillado grafito, bandeja de acero inoxidable y de altura regulable. Incluye ruedas con freno. Dimensiones  BANDEJA 60X40. Color GRIS. Marca Veterkind®, hecho en CHILE.',
+    description: 'Estructura en perfil cuadrado de 1.0 mm. Pintura Martillado grafito, bandeja de acero inoxidable y de altura regulable. Incluye ruedas con freno. Dimensiones  BANDEJA 60X40. Color GRIS.',
     image: 'mesa-mayo.jpg'
   },
   {
@@ -51,13 +45,13 @@ let products = [
   {
     title: 'Camilla Transporte Veterinaria Plegable',
     short_description: 'Mesa-camilla de exploración plegable con ruedas. [...]',
-    description: 'Mesa-camilla de exploración plegable con ruedas. Estructura 100% metálica, ultra liviana, inoxidable. Fabricación propia OSM Ltda. de la línea muebles clínicos Veterkind®. Resiste hasta 90 kilos. Superficie de lona ultra resistente, impermeable y lavable. Ruedas giratorias de alto tráfico con freno. Sujeción, correas con velcro para seguridad y control animal. Plegable para mayor comodidad. Garantía 1 año. Largo: 100cm, Ancho: 50cm, Alto: 80cm. Color según disponibilidad.',
+    description: 'Mesa-camilla de exploración plegable con ruedas. Estructura 100% metálica, ultra liviana, inoxidable. Resiste hasta 90 kilos. Superficie de lona ultra resistente, impermeable y lavable. Ruedas giratorias de alto tráfico con freno. Sujeción, correas con velcro para seguridad y control animal. Plegable para mayor comodidad. Garantía 1 año. Largo: 100cm, Ancho: 50cm, Alto: 80cm. Color según disponibilidad.',
     image: 'mesa-plegable-mayo.jpg'
   },
   {
     title: 'Mesa Quirúrgica Veterinaria Premium',
     short_description: 'Mesa de cirugía y procedimiento modelo premium [...]',
-    description: 'Totalmente plegable, tipo maleta, para trasladar cómodamente a terreno u operativos. Para uso en clínica, cirugía, procedimientos, baño sanitario. Ruedas para traslado cómodo. Arco de sujeción para baño sanitario apto peluquería, procedimientos y examen clínico. Cubierta de acero inoxidable en 1mm. Acero grado médico. Medidas: 1.20 x 60 cm. Altura regulable desde 85 cm a 1.0 mt. Con canal diamantado y orificio de drenaje. Recipiente para fluidos de acero, movible y desmontable. Porta bandejas movible en 360°. Bandeja de acero inoxidable, para instrumentos quirúrgicos desmontables. Bandeja para ayudante, desmontable. Estructura 100% metálica. Porta suero 4 ganchos, desmontable y regulable en altura. Lámpara clínica con cuello flexible, todas las posiciones desmontables. Manijas laterales para fijación de paciente. Manilla para traslado. 4 ruedas alta resistencia, c/u con freno independiente. Arco regulable en altura hasta 88 cm. largo 1.25 mt. Arco incluye 2 ganchos de corredera independiente, con freno fijador c/u. Garantía: 5 años contra defectos de fabricación.',
+    description: 'Totalmente plegable, tipo maleta, para trasladar cómodamente a terreno u operativos. Para uso en clínica, cirugía, procedimientos, baño sanitario. Ruedas para traslado cómodo. Arco de sujeción para baño sanitario apto peluquería, procedimientos y examen clínico. Cubierta de acero inoxidable en 1mm. Acero grado médico. Medidas: 1.20 x 60 cm. Altura regulable desde 85 cm a 1.0 mt. Con canal diamantado y orificio de drenaje. Recipiente para fluidos de acero, movible y desmontable. Porta bandejas movible en 360°. Bandeja de acero inoxidable, para instrumentos quirúrgicos desmontables […]',
     image: 'mesa-premium.jpg'
   },
   {

@@ -27,7 +27,6 @@
     font-family: "Open Sans", arial, sans serif
     font-size: 16px
     line-height: 1.5
-    font-color: $dark
 
   .container
     max-width: 1152px
