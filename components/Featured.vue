@@ -10,7 +10,7 @@
           <div class="card">
             <div class="card__media box-sh" style="position:relative">
               <span v-show="product.is_new" class="" style="position: absolute; top: 5px; left: 5px; border-color: #f6993f; background-color: #f6993f; padding: 2px 4px; color:white; font-size: x-small; border-radius: 5px; text-transform: uppercase;">nuevo</span>
-              <img :src="getImageUrl(product.image)" alt="">
+              <img :src="product.image" alt="">
             </div>
             <div class="card__content">
               <h4 class="card__heading" v-text="product.title">.</h4>
@@ -20,14 +20,13 @@
         </div>
       </div>
       <div class="featured__buttons">
-        <nuxt-link to="/products" class="btn btn-a"><Shop class="icon icon-2"/> Ver catálogo</nuxt-link>
+        <nuxt-link to="/products" class="btn btn-a">Ver catálogo</nuxt-link>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import Shop from '~/static/svg/shop.svg'
 import products from './products.js'
 
 export default {
@@ -35,14 +34,6 @@ export default {
     return {
       products: products.slice(0, 3)
     }
-  },
-  methods: {
-    getImageUrl (image) {
-      return require(`static/${image}`)
-    }
-  },
-  components: {
-    Shop
   }
 }
 </script>

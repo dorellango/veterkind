@@ -5,10 +5,8 @@
 </template>
 
 <style lang="sass">
-  @import "minireset.css"
-  @import "animate.css"
   @import "~assets/sass/app.sass"
-  
+
   .wrapper
     overflow: hidden
   h1, h2, h3, h4, h5, h6
@@ -31,15 +29,9 @@
     line-height: 1.5
     font-color: $dark
 
-  a
-    text-decoration: none
-
   .container
     max-width: 1152px
     margin: 0 auto
     padding: 0 1rem
-    
-  p
-    margin: .75rem 0
 
 </style>

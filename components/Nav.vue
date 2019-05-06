@@ -1,17 +1,17 @@
 <template>
-  <div class="navbar animated fadeInDown">
+  <div class="navbar animated fadeInDown shadow border-t-4 border-teal relative bg-white">
     <div class="container">
-      <div class="navbar__inner">
+      <div class="navbar__inner flex items-center h-16">
         <div class="navbar__brand">
-          <a class="hide-m" href="/"><img src="~static/logo.png" alt="Veterkind Logo"></a>
-          <a class="hide-t" href="/"><img src="~static/logo_mini.png" alt="Veterkind Logo"></a>
+          <a class="hide-m" href="/"><img class="h-12" src="/logo.png" alt="Veterkind Logo"></a>
+          <a class="hide-t" href="/"><img class="h-12" src="/logo_mini.png" alt="Veterkind Logo"></a>
         </div>
         <div class="navbar__links hide-m">
-          <a href="/">Inicio</a>
-          <nuxt-link to="/products">Productos</nuxt-link>
+          <nuxt-link class="mr-2 text-grey-dark" to="/">Inicio</nuxt-link>
+          <nuxt-link class="mr-2 text-grey-dark" to="/products">Productos</nuxt-link>
         </div>
         <div class="navbar__right">
-           <a href="/contact" class="btn btn-p filled"><Support class="icon icon-2"/> Contacto</a>
+           <a href="/contact" class="btn btn-p filled">Contacto</a>
         </div>
       </div>
     </div>
@@ -19,13 +19,9 @@
 </template>
 
 <script>
-import Support from '~/static/svg/support.svg'
 import jump from 'jump.js'
 
 export default {
-  components: {
-    Support
-  },
   methods: {
     jumpTo (target) {
       jump(target)
@@ -38,41 +34,22 @@ export default {
 <style lang="sass">
   @import '~assets/sass/variables'
   @import '~assets/sass/mixins'
-  
+
   $navbar-bg: $lightest
   $navbar-br: $teal
 
   .navbar
-    position: relative
     z-index: 1000
-    background-color: $navbar-bg
-    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.10)
-    border-top: 10px solid $navbar-br
     .navbar__inner
-      height: 70px
-      display: flex
-      align-items: center
-      .navbar__brand
-        height: 100%
-        +mobile
-          flex-grow: 1
-        a 
-          height: 70px         
-          display: flex
-          align-items: center
-        img          
-          max-height: 70%
-          width: auto
-          opacity: .7
-      .navbar__links 
+      .navbar__links
         margin-left: 1rem
         flex-grow: 1
         text-align: right
         margin-right: .75rem
-        a
-          cursor: pointer
-          color: $dark
-          margin-right: 1rem
+        // a
+        //   cursor: pointer
+        //   color: $dark
+        //   margin-right: 1rem
       .navbar__right
         a
           margin-right: 1rem
@@ -81,4 +58,3 @@ export default {
           &:not(.btn)
             color: $dark
 </style>
-

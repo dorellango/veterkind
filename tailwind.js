@@ -194,6 +194,10 @@ module.exports = {
   */
 
   fonts: {
+    'heading': [
+      'Open Sans',
+      'sans-serif'
+    ],
     'sans': [
       'system-ui',
       'BlinkMacSystemFont',
