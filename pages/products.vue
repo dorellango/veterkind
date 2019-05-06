@@ -10,7 +10,7 @@
         <div style="margin-top: 300px;"  id="products"> <!-- ON MOBILE -->
           <div v-for="(product, index) in products" :key="index" class="relative flex flex-wrap mb-24">
             <div class="products-thumb flex-no-shrink w-full md:w-1/3 shadow mb-6 md:mb-0">
-              <img class="align-bottom" :src="product.image" alt="">
+              <img class="align-bottom" :src="'/' + product.image" :alt="product.title">
             </div>
             <div class="w-full pl-0 md:pl-8 md:w-2/3">
               <div class="text-xs text-grey">

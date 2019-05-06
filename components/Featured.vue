@@ -13,7 +13,7 @@
                 class="absolute pin-t pin-l mt-2 ml-2 bg-orange text-xs rounded uppercase text-orange-lightest px-2 py-1/2">
                 nuevo
               </span>
-              <img class="align-bottom" :src="product.image" alt="">
+              <img class="align-bottom" :src="'/' + product.image" :alt="product.title">
             </div>
             <div class="border-4 border-grey-lighter py-8 px-3 transition-3 mx-4 -mt-4 mb-8 md:mb-0">
               <h4 class="text-grey-darker font-bold text-center mb-2 font-heading" v-text="product.title">.</h4>
