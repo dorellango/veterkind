@@ -22,7 +22,7 @@
               <h2 class="text-grey-darkest mb-2" v-text="product.title"></h2>
               <div class="text-grey-dark">
                 <p class="text-justify" v-text="product.description"></p>
-                <a class="mt-4 text-teal-lightest px-2 py-1 rounded bg-teal text-xs tracking-wide inline-flex items-center" href="">
+                <a v-if="product.file" class="mt-4 text-teal-lightest px-2 py-1 rounded bg-teal text-xs tracking-wide inline-flex items-center" :href="product.file" download="Ficha Técnica">
                   <svg class="h-3 w-3 mr-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 17 12 21 16 17"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"></path></svg>
                   Descargar Ficha
                 </a>
