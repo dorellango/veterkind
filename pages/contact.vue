@@ -16,9 +16,9 @@
           </gmap-map>
           <div class="contact__info bg-teal text-teal-lightest py-8 pattern-bg">
             <div class="container">
-              <div class="columns">
-                <div class="column is-one-third">
-                  <div class="contact__option flex justify-center">
+              <div class="flex flex-wrap">
+                <div class="w-full md:w-1/3 mb-4 md:mb-0">
+                  <div class="contact__option flex md:justify-center justify-start">
                     <div class="contact__body">
                       <h4 class="font-heading mb-4 text-teal-lighter">Información</h4>
                       <ul class="list-reset">
@@ -38,8 +38,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="column is-one-third">
-                  <div class="contact__option flex justify-center">
+                <div class="w-full md:w-1/3 mb-4 md:mb-0">
+                  <div class="contact__option flex md:justify-center justify-start">
                     <div class="contact__body">
                       <h4 class="font-heading mb-4 text-teal-lighter">General</h4>
                       <ul class="list-reset">
@@ -59,8 +59,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="column is-one-third">
-                  <div class="contact__option flex justify-center">
+                <div class="w-full md:w-1/3">
+                  <div class="contact__option flex md:justify-center justify-start">
                     <div class="contact__body">
                       <h4 class="font-heading mb-4 text-teal-lighter">Ventas</h4>
                       <ul class="list-reset">
