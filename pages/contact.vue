@@ -32,7 +32,11 @@
                         </li>
                         <li class="flex items-center mb-4">
                           <svg class="h-4 w-4 fill-current mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="-7 -2 24 24" width="24" height="24" preserveAspectRatio="xMinYMin"><path d='M4 9.9A5.002 5.002 0 0 1 5 0a5 5 0 0 1 1 9.9V19a1 1 0 0 1-2 0V9.9zM5 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6z' /></svg>
-                          Clorinda Henríquez 80, La Reina.
+                            Clorinda Henríquez 80, La Reina.
+                        </li>
+                        <li class="flex items-center mb-4">
+                          <svg  class="h-4 w-4 fill-current mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path d="M753.4 284.6l-124 214.5-123.9-214.5-123.9 214.5-123.9-214.5-124.1 214.6 124.1 214.7 123.9-214.5 123.9 214.5 123.9-214.6 124 214.6 124-214.7z"></path> <path d="M500 93.6C229.4 93.6 10 275.5 10 500c0 224.4 219.4 406.4 490 406.4s490-182 490-406.4c0-224.5-219.4-406.4-490-406.4zm0 777c-246.7 0-446.8-166-446.8-370.6 0-204.6 200-370.6 446.8-370.6 246.7 0 446.8 165.9 446.8 370.6 0 204.6-200.1 370.6-446.8 370.6z"></path></svg>
+                          (L3) Fdo. Castillo Velasco
                         </li>
                       </ul>
                     </div>
