@@ -10,7 +10,7 @@
             Muebles clínicos a medida.
         </h1>
         <div>
-          <a href="#" @click.prevent="jumpTo('.featured')" class="btn btn-a">Productos</a>
+          <a href="#" @click.prevent="jumpTo('#featured')" class="btn btn-a">Productos</a>
         </div>
       </div>
     </div>

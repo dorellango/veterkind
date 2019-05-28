@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="relative" id="featured" >
     <div class="container">
       <div class="py-16">
         <div class="mb-16 heading-pattern absolute pin-l pin-t pin-r h-72 flex justify-center items-center flex-col">
@@ -38,8 +38,8 @@ export default {
       products: products.slice(0, 3)
     }
   },
-  mounted() {
-    document.querySelector('#products').addEventListener('contextmenu', event => event.preventDefault());
+  mounted () {
+    document.querySelector('#products').addEventListener('contextmenu', event => event.preventDefault())
   }
 }
 </script>
