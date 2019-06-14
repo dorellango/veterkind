@@ -1,10 +1,16 @@
 let products = [
   {
+    title: 'Mesa Veterinaria Veterkind® 1200 Sirona',
+    short_description: ' 1.20m de largo x 60cm de ancho. Elevación con ajuste hidráulico [...]',
+    description: '.1.20m de largo x 60cm de ancho. -Altura regulable mediante sistema hidráulico: desde 60cm hasta 1.20m de altura. Estructura 100% metálica. Cubierta en acero inoxidable grado médico. Elevación con ajuste hidráulico hasta 45º (Trendelenburg). Canal diamantado y orificio de drenaje. Porta recipiente movible y desmontable. Recipiente de acero para fluidos. Porta bandeja mayo de 36cm x 27cm movible en 360º. Brazo acero para cogotera, altura regulable, desmontable. […]',
+    image: 'mesa-sirona.jpg',
+    is_new: true
+  },
+  {
     title: 'Mesa Quirúrgica Veterinaria 3600',
     short_description: 'Elevación con ajuste hidráulico hasta 45º (Trendelenburg) [...]',
     description: 'Con canal diamantado y orificio de drenaje. Porta recipiente movible y desmontable. Recipiente de acero para fluidos . Porta bandeja movible en 360º . Bandeja de acero inoxidable para instrumentos quirúrgicos desmontable. Bandeja para ayudante desmontable. Brazo acero para cogotera, altura regulable, desmontable. Estructura 100% metálica . Porta suero con 4 ganchos desmontable […]',
-    image: 'mesa-3600.jpg',
-    is_new: true
+    image: 'mesa-3600.jpg'
   },
   {
     title: 'Portasueros para Canil',
