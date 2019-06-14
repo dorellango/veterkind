@@ -7,7 +7,7 @@ let products = [
     is_new: true
   },
   {
-    title: 'Mesa Quirúrgica Veterinaria 3600',
+    title: 'Mesa Veterinaria Veterkind® 3600 Eira',
     short_description: 'Elevación con ajuste hidráulico hasta 45º (Trendelenburg) [...]',
     description: 'Con canal diamantado y orificio de drenaje. Porta recipiente movible y desmontable. Recipiente de acero para fluidos . Porta bandeja movible en 360º . Bandeja de acero inoxidable para instrumentos quirúrgicos desmontable. Bandeja para ayudante desmontable. Brazo acero para cogotera, altura regulable, desmontable. Estructura 100% metálica . Porta suero con 4 ganchos desmontable […]',
     image: 'mesa-3600.jpg'
@@ -19,13 +19,13 @@ let products = [
     image: 'portasueros-canil.jpg'
   },
   {
-    title: 'Mesa Quirúrgica Completa',
+    title: 'Mesa Veterinaria Veterkind® 2200 Eira',
     short_description: 'Cubierta en acero inoxidable grado médico, plegable [...]',
     description: 'Totalmente Plegable. Estructura 100% metálica, medidas 1.20 de largo x 60 de ancho y 85 de alto regulable hasta 1, 0 mt. Manijas laterales para fijación de paciente, manilla para traslado y canal diamantado y orificio de drenaje. Porta bandeja movible en 360º, porta suero con 4 ganchos desmontable, lámpara clínica con cuello flexible, recipiente de acero para fluidos. Lámpara clínica con cuello flexible todas las posiciones desmontable.',
     image: 'quirurgica-completa.jpg'
   },
   {
-    title: 'Mesa de Examen Básica',
+    title: 'Mesa Veterinaria Veterkind® 1200 Eira',
     short_description: 'Cubierta en acero inoxidable grado médico, plegable [...]',
     description: 'Totalmente Plegable. Estructura 100% metálica, medidas 1.20 de largo x 60 de ancho y 85 de alto regulable hasta 1, 0 mt. Manijas laterales para fijación de paciente, manilla para traslado y canal diamantado y orificio de drenaje. Regulador de alzador de funcionamiento independiente(en caso que la mesa esté ubicada en superficie irregular, lo que le a nos centímetros más de altura). Cubierta en acero inoxidable grado médico.',
     image: 'quirurgica-basica.jpg'
@@ -55,7 +55,7 @@ let products = [
     image: 'mesa-plegable-mayo.jpg'
   },
   {
-    title: 'Mesa Quirúrgica Veterinaria Premium',
+    title: 'Mesa Veterinaria Veterkind® 2600 Eira',
     short_description: 'Mesa de cirugía y procedimiento modelo premium [...]',
     description: 'Totalmente plegable, tipo maleta, para trasladar cómodamente a terreno u operativos. Para uso en clínica, cirugía, procedimientos, baño sanitario. Ruedas para traslado cómodo. Arco de sujeción para baño sanitario apto peluquería, procedimientos y examen clínico. Cubierta de acero inoxidable en 1mm. Acero grado médico. Medidas: 1.20 x 60 cm. Altura regulable desde 85 cm a 1.0 mt. Con canal diamantado y orificio de drenaje. Recipiente para fluidos de acero, movible y desmontable. Porta bandejas movible en 360°. Bandeja de acero inoxidable, para instrumentos quirúrgicos desmontables […]',
     image: 'mesa-premium.jpg'
