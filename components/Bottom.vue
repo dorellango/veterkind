@@ -1,20 +1,30 @@
 <template>
   <div class="bg-grey-darkest px-4 py-16">
     <div class="container">
-      <div class="text-center pb-8 mb-8 border-dashed border-b border-grey-darker uppercase flex justify-center items-center flex-wrap md:flex-unwrap">
-        <a class="mb-2 w-full md:w-auto mx-3 text-grey" href="/">Inicio</a>
-        <a class="mb-2 w-full md:w-auto mx-3 text-grey" href="/contact">Contacto</a>
-        <a class="mb-2 w-full md:w-auto mx-3 text-grey" href="/products">Productos</a>
-        <a href="" class="mb-2 w-full md:w-auto mx-3 text-grey flex items-center justify-center">
-          <svg class="h-6 w-6 mr-2 fill-current" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
-            <path d="M31 2H15c-2.76 0-5 2.24-5 5v34c0 2.76 2.24 5 5 5h16c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5zm-8 42c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm9-8H14V8h18v28z"/>
-            <path d="M0 0h48v48H0z" fill="none"/>
-          </svg>
-          +562 27891356
-        </a>
-        <img class="h-12 mt-3 opacity-75" src="/sercotec.png" alt="">
+      <div class="md:flex border-dashed border-b border-grey-darker pb-8 mb-8 justify-between">
+        <div class="text-left uppercase flex flex-col mb-6 md:mb-0">
+          <a class="mb-2 w-full md:w-auto text-grey text-sm hover:text-teal-lighter" href="/">Inicio</a>
+          <a class="mb-2 w-full md:w-auto text-grey text-sm hover:text-teal-lighter" href="/contact">Contacto</a>
+          <a class="mb-2 w-full md:w-auto text-grey text-sm hover:text-teal-lighter" href="/products">Productos</a>
+          <a class="mb-2 w-full md:w-auto text-grey text-sm hover:text-teal-lighter mb-4" href="/products">OSM Ltda.</a>
+          <a href="" class="mb-2 text-grey-light border-grey border px-3 py-1 rounded inline-flex items-center justify-center text-2xl hover:bg-grey hover:text-grey-darkest">
+            <svg class="h-6 w-6 mr-2 fill-current" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+              <path d="M31 2H15c-2.76 0-5 2.24-5 5v34c0 2.76 2.24 5 5 5h16c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5zm-8 42c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm9-8H14V8h18v28z"/>
+              <path d="M0 0h48v48H0z" fill="none"/>
+            </svg>
+            +562 27891356
+          </a>
+        </div>
+        <div class="mb-6 flex items-center justify-center">
+            <!-- <img class="h-32 mx-3 opacity-75" src="/sercotec.png" alt="Sercotec"> -->
+            <img class="h-36 mr-3 opacity-75" src="/sercotec_mipes.png" alt="Sercotec MIPES">
+            <img class="h-36 opacity-75" src="/inapi.png" alt="Inapi">
+
+          </div>
       </div>
-      <div class="flex justify-between text-grey flex-wrap ">
+
+
+      <div class="flex justify-between text-grey flex-wrap">
         <div class="md:mb-0 mb-8 md:w-auto w-full">
           <p class="mb-2">&copy; 2019 Veterkind Ltda. Muebles clínicos a medida</p>
           <p class="tracking-wide text-sm text-grey-dark">Una empresa de <a class="text-grey-lightest" href="https://www.osm.cl" target="_blank">OSM Ltda.</a></p>
