@@ -1,5 +1,12 @@
 let products = [
   {
+    title: 'Balanza Digital 300 kg Veterkind®',
+    short_description: 'Capacidad: 300 kilos de 100 en 100 gramos Plataforma: Acero de 60 X 45 cm. [...]',
+    description: 'Capacidad: 300 kilos de 100 en 100 gramos Plataforma: Acero de 60 X 45 cm. Tiempo de carga de batería 12 Horas Duración de la carga de la batería 25 a 35 horas. 7 MEMORIAS Función automática de puesta a cero. Función automática de ahorro de energía Función error. Alarma de sobrepeso Alarma de batería baja. Funcionamiento a Batería y Corriente.',
+    image: 'balanza-300.jpg',
+    is_new: true
+  },
+  {
     title: 'Mesa Veterinaria Veterkind® 1200 Sirona',
     short_description: ' 1.20m de largo x 60cm de ancho. Elevación con ajuste hidráulico [...]',
     description: '.1.20m de largo x 60cm de ancho. -Altura regulable mediante sistema hidráulico: desde 60cm hasta 1.20m de altura. Estructura 100% metálica. Cubierta en acero inoxidable grado médico. Elevación con ajuste hidráulico hasta 45º (Trendelenburg). Canal diamantado y orificio de drenaje. Porta recipiente movible y desmontable. Recipiente de acero para fluidos. Porta bandeja mayo de 36cm x 27cm movible en 360º. Brazo acero para cogotera, altura regulable, desmontable. […]',
