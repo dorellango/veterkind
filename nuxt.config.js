@@ -1,4 +1,15 @@
+import products from './components/products'
+
 module.exports = {
+
+  generate: {
+    routes: function () {
+      return products.map((product) => {
+        return '/products/' + product.slug
+      })
+    }
+  },
+
   /*
   ** Headers of the page
   */
