@@ -1,0 +1,5 @@
+- Bandeja Acero
+- Medidas 60X40 cm
+- Ruedas  de goma y con freno
+- Color Gris
+- Marca Veterkind

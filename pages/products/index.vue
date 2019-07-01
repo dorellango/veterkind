@@ -9,9 +9,9 @@
       <div class="container">
         <div style="margin-top: 300px;"  id="products"> <!-- ON MOBILE -->
           <div v-for="(product, index) in products" :key="index" class="relative flex flex-wrap mb-24">
-            <div class="products-thumb flex-no-shrink w-full md:w-1/3 shadow mb-6 md:mb-0">
+            <a :href="`/products/${product.slug}`" class="block products-thumb flex-no-shrink w-full md:w-1/3 shadow mb-6 md:mb-0">
               <img class="align-bottom" :src="'/' + product.image" :alt="product.title">
-            </div>
+            </a>
             <div class="w-full pl-0 md:pl-8 md:w-2/3">
               <div class="text-xs text-grey">
                 <div class="flex">
@@ -19,7 +19,9 @@
                   <p v-show="product.is_new" class="bg-orange text-xs rounded uppercase text-orange-lightest px-2 py-1/2">nuevo</p>
                 </div>
               </div>
-              <h2 class="text-grey-darkest mb-2" v-text="product.title"></h2>
+              <a :href="`/products/${product.slug}`" class="text-grey-darkest hover:text-grey-dark block mb-2">
+                <h2 v-text="product.title"></h2>
+              </a>
               <div class="text-grey-dark">
                 <p class="text-justify" v-text="product.description"></p>
                 <a v-if="product.file" class="mt-4 text-teal-lightest px-2 py-1 rounded bg-teal text-xs tracking-wide inline-flex items-center" :href="product.file" download="Ficha Técnica">
@@ -56,8 +58,8 @@ export default {
       products: products
     }
   },
-  mounted() {
-    document.querySelector('#products').addEventListener('contextmenu', event => event.preventDefault());
+  mounted () {
+    document.querySelector('#products').addEventListener('contextmenu', event => event.preventDefault())
   },
   components: {
     Nav,

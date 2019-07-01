@@ -1,0 +1,7 @@
+- Estructura en perfil de 1.0 mm.
+- Pintura Martillado grafito
+- Ruedas.
+- Altura regulable. Hasta 2 metros
+- Color GRIS.
+- Marca Veterkind ®
+- Hecho en CHILE.

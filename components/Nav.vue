@@ -7,8 +7,8 @@
           <a class="md:hidden" href="/"><img class="h-12 opacity-75" src="/logo_mini.png" alt="Veterkind Logo"></a>
         </div>
         <div class="navbar__links hide-m">
-          <nuxt-link class="mr-2 text-grey-dark" to="/">Inicio</nuxt-link>
-          <nuxt-link class="mr-2 text-grey-dark" to="/products">Productos</nuxt-link>
+          <nuxt-link class="mr-4 text-grey-dark" to="/">Inicio</nuxt-link>
+          <nuxt-link class="mr-4 text-grey-dark" to="/products">Productos</nuxt-link>
         </div>
         <div class="navbar__right ml-auto">
            <a href="/contact" class="btn btn-p filled">Contacto</a>

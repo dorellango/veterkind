@@ -7,7 +7,7 @@
           <h1 class="text-teal-lightest">Productos Destacados</h1>
         </div>
         <div class="flex flex-wrap mt-36" id="products">
-          <div v-for="(product, index) in products" :key="index" class="w-full md:w-1/3 px-4">
+          <a :href="`/products/${product.slug}`" v-for="(product, index) in products" :key="index" class="block w-full md:w-1/3 px-4">
             <div class="shadow-md relative">
               <span v-show="product.is_new"
                 class="absolute pin-t pin-l mt-2 ml-2 bg-orange text-xs rounded uppercase text-orange-lightest px-2 py-1/2">
@@ -19,7 +19,7 @@
               <h4 class="text-grey-darker font-bold text-center mb-2 font-heading" v-text="product.title">.</h4>
               <p class="block tracking-wide text-sm text-center text-grey" v-text="product.short_description"></p>
             </div>
-          </div>
+          </a>
         </div>
         <div class="text-center mt-12">
           <nuxt-link to="/products" class="btn btn-a">Ver catálogo</nuxt-link>

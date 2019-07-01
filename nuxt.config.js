@@ -19,16 +19,14 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
   css: ['@/assets/css/tailwind.css'],
+  modules: [
+    '@nuxtjs/markdownit'
+  ],
   /*
   ** Build configuration
   */
   build: {
-    vendor: ['vue2-google-maps'],
-    /*
-    ** Run ESLint on save
-    */
-    extend(config, ctx) {
-    }
+    vendor: ['vue2-google-maps']
   },
-  plugins: ['~/plugins/vue2-google-maps.js'],
+  plugins: ['~/plugins/vue2-google-maps.js']
 }
