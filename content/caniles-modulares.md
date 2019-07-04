@@ -1,0 +1,11 @@
+- Caniles a medida cierre malla o galvanizado.
+- Medidas a solicitud.
+- Módulos apilables.
+- Opción con ruedas en base.
+- Perfil 30/20 - 20/20.
+- Malla Soldgalv 3,4, en puerta y muros.
+- Picaportes de seguridad.
+- Pernos de montaje.
+- Soldadura Mig.
+- Bandeja recolectora en 1,5mm lavable.
+- Opción 100% en acero inoxidable.

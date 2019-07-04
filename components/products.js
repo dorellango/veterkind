@@ -90,6 +90,22 @@ let products = [
     image_big: 'porta-sueros-big.jpg',
     buy_url: 'https://www.osm.cl/producto/porta-sueros-de-4-ganchos/',
     slug: 'portasueros'
+  },
+  {
+    title: 'Camilla Transporte Veterinaria Plegable',
+    short_description: 'Mesa-camilla de exploración plegable con ruedas. [...]',
+    description: 'Mesa-camilla de exploración plegable con ruedas. Estructura 100% metálica, ultra liviana, inoxidable. Resiste hasta 90 kilos. Superficie de lona ultra resistente, impermeable y lavable. Ruedas giratorias de alto tráfico con freno. Sujeción, correas con velcro para seguridad y control animal. Plegable para mayor comodidad. Garantía 1 año. Largo: 100cm, Ancho: 50cm, Alto: 80cm. Color según disponibilidad.',
+    image: 'mesa-plegable-mayo.jpg',
+    image_big: 'mesa-plegable-mayo-big.jpg',
+    slug: 'mesa-plegable-mayo'
+  },
+  {
+    title: 'Caniles Modulares',
+    short_description: 'Caniles a medida cierre malla o galvanizado [...]',
+    description: 'Caniles a medida cierre malla o galvanizado. Medidas a solicitud. Módulos apilables. Opción con ruedas en base. Perfil 30/20 - 20/20. Malla Soldgalv 3,4, en puerta y muros. Picaportes de seguridad. Pernos de montaje. Soldadura Mig. Bandeja recolectora en 1,5mm lavable. Opción 100% en acero inoxidable.',
+    image: 'caniles-modulares.jpg',
+    image_big: 'caniles-modulares-big.jpg',
+    slug: 'caniles-modulares'
   }
 ]
 

@@ -1,0 +1,10 @@
+- Mesa-camilla de exploración plegable con ruedas.
+- Estructura 100% metálica, ultra liviana, inoxidable.
+- Resiste hasta 90 kilos.
+- Superficie de lona ultra resistente, impermeable y lavable.
+- Ruedas giratorias de alto tráfico con freno.
+- Sujeción, correas con velcro para seguridad y control animal.
+- Plegable para mayor comodidad.
+- Garantía 1 año.
+- Largo: 100cm, Ancho: 50cm, Alto: 80cm.
+- Color según disponibilidad.

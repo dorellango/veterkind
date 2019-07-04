@@ -18,7 +18,9 @@
                 <div class="content mt-6 px-4" v-html="content.default"></div>
                 <!-- Where buy? -->
                 <div class="border-t border-dashed pt-8 mt-8 px-4">
-                    <a class="btn btn-a" :href="product.buy_url" target="_blank">Comprar :)</a>
+                    <a class="btn btn-a" :href="product.buy_url ? product.buy_url : 'mailto:ventas@osm.cl'"
+                      :target="product.buy_url ? '_blank' : '_self'"
+                      v-text="product.buy_url ? 'Comprar :)' : 'Cotizar'">Comprar :)</a>
                 </div>
             </div>
         </div>
