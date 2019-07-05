@@ -31,8 +31,12 @@ module.exports = {
   loading: { color: '#3B8070' },
   css: ['@/assets/css/tailwind.css'],
   modules: [
-    '@nuxtjs/markdownit'
+    '@nuxtjs/markdownit',
+    '@nuxtjs/google-analytics'
   ],
+  googleAnalytics: {
+    id: 'UA-143380174-1'
+  },
   /*
   ** Build configuration
   */
