@@ -16,9 +16,9 @@
           </a>
         </div>
         <div class="mb-6 flex items-center justify-center">
-            <!-- <img class="h-32 mx-3 opacity-75" src="/sercotec.png" alt="Sercotec"> -->
             <img class="h-36 mr-3 opacity-75" src="/sercotec_mipes.png" alt="Sercotec MIPES">
-            <img class="h-36 opacity-75" src="/inapi.png" alt="Inapi">
+            <img class="h-36 mx-3 opacity-75" src="/inapi.png" alt="Inapi">
+            <img class="h-36 opacity-75" src="/air.png" alt="Asociación Industriales La Reina">
 
           </div>
       </div>
