@@ -1,5 +1,5 @@
 - Capacidad: 300 kilos de 100 en 100 gramos
-- Plataforma: Acero de 60 X 45 cm.
+- Plataforma: Acero de 50 X 40 cm.
 - Tiempo de carga de batería 12 Horas
 - Duración de la carga de la batería 25 a 35 horas.
 - 7 MEMORIAS

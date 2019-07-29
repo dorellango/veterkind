@@ -11,8 +11,8 @@ let products = [
   },
   {
     title: 'Balanza Digital 300 kg Veterkind®',
-    short_description: 'Capacidad: 300 kilos de 100 en 100 gramos Plataforma: Acero de 60 X 45 cm. [...]',
-    description: 'Capacidad: 300 kilos de 100 en 100 gramos Plataforma: Acero de 60 X 45 cm. Tiempo de carga de batería 12 Horas Duración de la carga de la batería 25 a 35 horas. 7 MEMORIAS Función automática de puesta a cero. Función automática de ahorro de energía Función error. Alarma de sobrepeso Alarma de batería baja. Funcionamiento a Batería y Corriente.',
+    short_description: 'Capacidad: 300 kilos de 100 en 100 gramos Plataforma: Acero de 50 X 40 cm. [...]',
+    description: 'Capacidad: 300 kilos de 100 en 100 gramos Plataforma: Acero de 50 X 40 cm. Tiempo de carga de batería 12 Horas Duración de la carga de la batería 25 a 35 horas. 7 MEMORIAS Función automática de puesta a cero. Función automática de ahorro de energía Función error. Alarma de sobrepeso Alarma de batería baja. Funcionamiento a Batería y Corriente.',
     image: 'balanza-300.jpg',
     image_big: 'balanza-300-big.jpg',
     slug: 'balanza-300',
