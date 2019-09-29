@@ -1,5 +1,15 @@
 let products = [
   {
+    title: 'Canil modular de acero inoxidable Veterkind®',
+    short_description: 'Este canil ha sido fabricado completamente en acero AISI 304, en estructura modular para su mejor desempeño [...]',
+    description: 'Este canil ha sido fabricado completamente en acero AISI 304, en estructura modular para su mejor desempeño […]',
+    image: 'canil-modular-acero.jpg',
+    image_big: 'canil-modular-acero-big.jpg',
+    slug: 'canil-modular-acero',
+    buy_url: '',
+    is_new: true
+  },
+  {
     title: 'Mesa Veterinaria Veterkind® 1200 Sirona',
     short_description: ' 1.20m de largo x 60cm de ancho. Elevación con ajuste hidráulico [...]',
     description: '.1.20m de largo x 60cm de ancho. -Altura regulable mediante sistema hidráulico: desde 60cm hasta 1.20m de altura. Estructura 100% metálica. Cubierta en acero inoxidable grado médico. Elevación con ajuste hidráulico hasta 45º (Trendelenburg). Canal diamantado y orificio de drenaje. Porta recipiente movible y desmontable. Recipiente de acero para fluidos. Porta bandeja mayo de 36cm x 27cm movible en 360º. Brazo acero para cogotera, altura regulable, desmontable. […]',
