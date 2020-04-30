@@ -3,8 +3,8 @@
     <Nav />
     <Hero />
     <!-- isologo -->
-    <div class="flex items-center justify-center container">
-      <div class="mr-auto flex items-center">
+    <div class="items-center justify-center container md:flex">
+      <div class="mr-auto flex items-center md:mb-0 mb-4 mt-4 md:mt-0">
         <p class="tracking-wider text-grey-darker mr-4">
           Revisa <strong>la campaña</strong> en
         </p>
@@ -18,19 +18,6 @@
             alt=""
           />
         </a>
-        <!-- <a href="https://www.osm.cl/tienda?s=veterkind&post_type=product">
-          <img
-            class="align-bottom h-16 opacity-25"
-            src="https://www.osm.cl/wp-content/uploads/2016/11/osm_logo.png"
-            alt=""
-          />
-        </a> -->
-        <!-- <a
-            class="mr-auto btn btn-p filled"
-            href="https://www.osm.cl/categoria-producto/contingencia/"
-          >
-            Ver productos
-          </a> -->
       </div>
       <img
         src="https://www.osm.cl/wp-content/uploads/2020/03/corona-banner.png"
