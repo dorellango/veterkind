@@ -1,5 +1,15 @@
 let products = [
   {
+    title: 'Tunel de sanitización  Veterkind®',
+    short_description: 'Túnel de sanitización extremadamente versátil  de fácil transporte, liviano, simple. [...]',
+    description: 'Túnel de sanitización extremadamente versátil  de fácil transporte, liviano, simple. Cuatro, Aspersores pulverizadores en 360º […]',
+    image: 'tunel.jpg',
+    image_big: 'tunel-big.jpg',
+    slug: 'tunel-sanitizacion',
+    buy_url: 'https://www.osm.cl/producto/tunel-de-sanitizacion-veterkind/',
+    is_new: true
+  },
+  {
     title: 'Canil modular de acero inoxidable Veterkind®',
     short_description: 'Este canil ha sido fabricado completamente en acero AISI 304, en estructura modular para su mejor desempeño [...]',
     description: 'Este canil ha sido fabricado completamente en acero AISI 304, en estructura modular para su mejor desempeño […]',
